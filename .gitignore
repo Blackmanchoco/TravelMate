@@ -1,0 +1,57 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+node_modules
+.venv/
+dist
+dist-ssr
+build
+coverage
+*.local
+
+# Local temporary files
+tmp/
+temp/
+*.tmp
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local thesis drafting artifacts (root only)
+/DPP_chapter1_revised.docx
+/rewrite_chapter1.ps1
+
+# Local OSM extracts and generated pilot output
+/.local-data/
+
+# Private database snapshots and generated scratch output (not source/evidence)
+*.dump
+*.dump.sha256
+*.pgdump
+*.bak
+*.sql.gz
+*.sql.zst
+/backup.sql
+/backups/
+/backend/backups/
+/scratch/
+/docs/scratch/

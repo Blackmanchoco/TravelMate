@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-16",
+  "status": "provisionally shortlisted; desk-checked from web sources, not site visits",
+  "osm": {
+    "type": "node",
+    "id": 2021291518,
+    "latitude": 3.1541698,
+    "longitude": 101.7064587
+  },
+  "name": "Shangri-La Hotel",
+  "osmName": "Shangri-La Hotel",
+  "category": "Accommodation",
+  "destination": "Kuala Lumpur",
+  "nearestAnchor": "Petronas Twin Towers",
+  "distanceMeters": 678.9416663207386,
+  "identityUrl": "https://www.shangri-la.com/shangrila/city/kualalumpur/",
+  "priceUrl": "https://www.shangri-la.com/shangrila/city/kualalumpur/",
+  "address": "11 Jalan Sultan Ismail, 50250 Kuala Lumpur",
+  "price": {
+    "amountMYR": 461,
+    "unit": "average room night",
+    "basis": "Shangri-La Kuala Lumpur average per night on operator city page",
+    "level": 3
+  },
+  "locationNote": "OSM coordinates; no independent geocoding was performed.",
+  "openStatusNote": "Venue-operated page or linked booking engine was reachable on the check date; no site visit was performed."
+}

@@ -1,0 +1,762 @@
+[
+  {
+    "file": "/images/destinations/kuala-lumpur.jpg",
+    "title": "Kuala Lumpur",
+    "author": "CEphoto, Uwe Aranas",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Kuala_Lumpur_Malaysia_Skyline-03.jpg",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%"
+  },
+  {
+    "file": "/images/places/petronas-twin-towers.jpg",
+    "title": "Petronas Twin Towers",
+    "author": "Someformofhuman",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Petronas_Panorama_II.jpg",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 24%"
+  },
+  {
+    "file": "/images/places/klcc-park.jpg",
+    "title": "KLCC Park",
+    "author": "Philip Nalangan",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:KLCC_Park_Kuala_Lumpur.jpg",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 65%"
+  },
+  {
+    "file": "/images/places/jalan-alor.jpg",
+    "title": "Jalan Alor",
+    "author": "IQRemix",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Jalan_Alor_-_Kuala_Lumpur.jpg",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%"
+  },
+  {
+    "file": "/images/places/central-market-kuala-lumpur.jpg",
+    "title": "Central Market Kuala Lumpur",
+    "author": "Aumars",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Central_Market_Kuala_Lumpur.jpg",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%"
+  },
+  {
+    "file": "/images/places/batu-caves.jpg",
+    "title": "Batu Caves",
+    "author": "Slyronit",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Batu_Caves,_Kuala_Lumpur_03.jpg",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 65%"
+  },
+  {
+    "file": "/images/destinations/penang.jpg",
+    "title": "Penang",
+    "author": "C.W. Tan (alias PenangLion/gavreauri)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Panorama_of_northern-George_Town_01.jpg",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 60%"
+  },
+  {
+    "file": "/images/destinations/melaka.jpg",
+    "title": "Melaka",
+    "author": "Irhuzi",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Panorama_of_the_Historical_City_of_Malacca,_Malaysia.jpeg",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "30% 50%"
+  },
+  {
+    "file": "/images/destinations/kuching.jpg",
+    "title": "Kuching",
+    "author": "Fabio Achilli from Milano, Italy",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Darul_Hana_Bridge,_Kuching,_Sarawak.jpg",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%"
+  },
+  {
+    "file": "/images/places/kuala-lumpur-tower.jpg",
+    "title": "Kuala Lumpur Tower",
+    "author": "Diego Delso",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Menara_Kuala_Lumpur-Malaysia01.JPG",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 28%"
+  },
+  {
+    "file": "/images/places/bukit-bintang.jpg",
+    "title": "Bukit Bintang",
+    "author": "LegendaryLim",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bukit_Bintang_Crossing_in_2022.jpg",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%"
+  },
+  {
+    "file": "/images/places/national-mosque.jpg",
+    "title": "National Mosque of Malaysia",
+    "author": "Ariyanto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:2024_masjid_nasional_(7).jpg",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "55% 35%"
+  },
+  {
+    "file": "/images/places/islamic-arts-museum.jpg",
+    "title": "Islamic Arts Museum Malaysia",
+    "author": "Chainwit.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Islamic_Arts_Museum_Malaysia_Exterior_(May_2022)_-_img_02.jpg",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "55% 50%"
+  },
+  {
+    "file": "/images/places/thean-hou-temple.jpg",
+    "title": "Thean Hou Temple in Kuala Lumpur, Malaysia (3).jpg",
+    "author": "Sam Hidayat",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Thean_Hou_Temple_in_Kuala_Lumpur,_Malaysia_(3).jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Sam Hidayat / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/merdeka-square.jpg",
+    "title": "2016 Kuala Lumpur, Dataran Merdeka (02).jpg",
+    "author": "Marcin Konsek",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:2016_Kuala_Lumpur,_Dataran_Merdeka_(02).jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Marcin Konsek / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/national-museum-of-malaysia.jpg",
+    "title": "Exterior of the National Museum in Kuala Lumpur, Malaysia (DSCF0840).jpg",
+    "author": "Yu Chu Chin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_National_Museum_in_Kuala_Lumpur,_Malaysia_(DSCF0840).jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Yu Chu Chin / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/national-planetarium.jpg",
+    "title": "Planetarium Negara (exterior), Kuala Lumpur 20241026 111150.jpg",
+    "author": "Wiki Farazi",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Planetarium_Negara_(exterior),_Kuala_Lumpur_20241026_111150.jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Wiki Farazi / CC0 1.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/kek-lok-si-temple.jpg",
+    "title": "Kek Lok Si Temple (I).jpg",
+    "author": "Supanut Arunoprayote",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Kek_Lok_Si_Temple_(I).jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Supanut Arunoprayote / CC BY 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/penang-hill.jpg",
+    "title": "Upper Station of Penang Hill.jpg",
+    "author": "Cerevisae",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Upper_Station_of_Penang_Hill.jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Cerevisae / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/clan-jetties-of-penang.jpg",
+    "title": "Clan Jetties of Penang.jpg",
+    "author": "Lxphotography",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Clan_Jetties_of_Penang.jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Lxphotography / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/george-town.jpg",
+    "title": "George Town, Penang at night.jpg",
+    "author": "HundenvonPenang",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:George_Town,_Penang_at_night.jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by HundenvonPenang / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/cheong-fatt-tze-the-blue-mansion.jpg",
+    "title": "Cheong Fatt Tze Mansion (I).jpg",
+    "author": "Supanut Arunoprayote",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Cheong_Fatt_Tze_Mansion_(I).jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Supanut Arunoprayote / CC BY 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/pinang-peranakan-mansion.jpg",
+    "title": "Pinang Peranakan Mansion (I).jpg",
+    "author": "Supanut Arunoprayote",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Pinang_Peranakan_Mansion_(I).jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Supanut Arunoprayote / CC BY 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/khoo-kongsi.jpg",
+    "title": "Khoo Kongsi (I).jpg",
+    "author": "Supanut Arunoprayote",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Khoo_Kongsi_(I).jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Supanut Arunoprayote / CC BY 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/fort-cornwallis.jpg",
+    "title": "Fort Cornwallis, Penang (I).jpg",
+    "author": "Supanut Arunoprayote",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Fort_Cornwallis,_Penang_(I).jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Supanut Arunoprayote / CC BY 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/a-famosa.jpg",
+    "title": "2016 Malakka, A Famosa (01).jpg",
+    "author": "Marcin Konsek",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:2016_Malakka,_A_Famosa_(01).jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Marcin Konsek / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/stadthuys.jpg",
+    "title": "Stadthuys Melaka.jpg",
+    "author": "Philip Nalangan",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Stadthuys_Melaka.jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Philip Nalangan / CC BY 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/christ-church-melaka.jpg",
+    "title": "Melaka C - Christ Church Melaka with trishaws.jpg",
+    "author": "Orderinchaos",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Melaka_C_-_Christ_Church_Melaka_with_trishaws.jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Orderinchaos / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/melaka-river.jpg",
+    "title": "Melaka River Sunrise.jpg",
+    "author": "Choy Khai Chew",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Melaka_River_Sunrise.jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Choy Khai Chew / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/jonker-street.jpg",
+    "title": "2016 Malakka, Wejście do Jonker Walk - słynnej dzielnicy chińskiej (01).jpg",
+    "author": "Marcin Konsek",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:2016_Malakka,_Wej%C5%9Bcie_do_Jonker_Walk_-_s%C5%82ynnej_dzielnicy_chi%C5%84skiej_(01).jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Marcin Konsek / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/st-paul-s-church.jpg",
+    "title": "St. Paul's Church in Malacca, Malaysia.jpg",
+    "author": "Serrasalma",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:St._Paul%27s_Church_in_Malacca,_Malaysia.jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Serrasalma / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/cheng-hoon-teng-temple.jpg",
+    "title": "Melaka C - Cheng Hoon Teng entrance.jpg",
+    "author": "Orderinchaos",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Melaka_C_-_Cheng_Hoon_Teng_entrance.jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Orderinchaos / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/baba-nyonya-heritage-museum.jpg",
+    "title": "Baba Nyonya Heritage Museum.JPG",
+    "author": "Chongkian",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Baba_Nyonya_Heritage_Museum.JPG",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Chongkian / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/maritime-museum-of-melaka.jpg",
+    "title": "Maritime Museum.JPG",
+    "author": "Chongkian",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Maritime_Museum.JPG",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Chongkian / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/melaka-sultanate-palace-museum.jpg",
+    "title": "Malacca Sultanate Palace Museum Exterior.jpg",
+    "author": "Azuladnan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Malacca_Sultanate_Palace_Museum_Exterior.jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Azuladnan / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/little-india.jpg",
+    "title": "Little India, Penang 1.jpg",
+    "author": "Renek78",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Little_India,_Penang_1.jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Renek78 / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/batu-ferringhi-beach.jpg",
+    "title": "Batu Ferringhi beach.jpg",
+    "author": "غریبه ای در شهر",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Batu_Ferringhi_beach.jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by غریبه ای در شهر / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/penang-botanic-gardens.jpg",
+    "title": "Penang Botanic Gardens.jpg",
+    "author": "Richard N Horne",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Penang_Botanic_Gardens.jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Richard N Horne / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/penang-national-park.jpg",
+    "title": "Penang National Park Beach.jpg",
+    "author": "Jiechao Cheng",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Penang_National_Park_Beach.jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Jiechao Cheng / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/mahkota-parade.jpg",
+    "title": "Mahkota Parade.JPG",
+    "author": "Chongkian",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Mahkota_Parade.JPG",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Chongkian / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/1st-avenue-mall.jpg",
+    "title": "1st Avenue in George Town, Penang 2023.jpg",
+    "author": "HundenvonPenang",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:1st_Avenue_in_George_Town,_Penang_2023.jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by HundenvonPenang / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/mandarin-oriental-kuala-lumpur.jpg",
+    "title": "Mandarin Oriental Hotel Kuala Lumpur.jpg",
+    "author": "Philip Nalangan",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Mandarin_Oriental_Hotel_Kuala_Lumpur.jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Philip Nalangan / CC BY 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 20%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/atkinson-clock-tower.jpg",
+    "title": "Atkinson Clock Tower 2024.jpg",
+    "author": "Ivo Kruusamägi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Atkinson_Clock_Tower_2024.jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Ivo Kruusamägi / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/sultan-abdul-aziz-royal-gallery.jpg",
+    "title": "Galeri Diraja Sultan Abdul Aziz.jpg",
+    "author": "Benjy8769",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Galeri_Diraja_Sultan_Abdul_Aziz.jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Benjy8769 / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/borneo-cultures-museum.jpg",
+    "title": "Borneo Cultures Museum (2024).jpg",
+    "author": "Medelam",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Borneo_Cultures_Museum_(2024).jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Medelam / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  },
+  {
+    "file": "/images/places/jen-penang-georgetown-by-shangri-la.jpg",
+    "title": "Jen Hotel Penang 2017.jpg",
+    "author": "*angys*",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Jen_Hotel_Penang_2017.jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by *angys* / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes. Photographed in 2017; the hotel was then branded Hotel Jen."
+  },
+  {
+    "file": "/images/places/swiss-garden-hotel-residences-malacca.jpg",
+    "title": "Swiss-Garden Hotel and Residence.jpg",
+    "author": "Chongkian",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Swiss-Garden_Hotel_and_Residence.jpg",
+    "dateRetrieved": "2026-10-20",
+    "creditText": "Photo by Chongkian / CC BY-SA 4.0 / Wikimedia Commons",
+    "modifications": {
+      "cropped": false,
+      "resized": true,
+      "recompressed": true
+    },
+    "objectPosition": "50% 50%",
+    "note": "Resized and converted for web display; no other changes."
+  }
+]

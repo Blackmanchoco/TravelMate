@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-16",
+  "status": "provisionally shortlisted; desk-checked from web sources, not site visits",
+  "osm": {
+    "type": "node",
+    "id": 7474118086,
+    "latitude": 3.1604202,
+    "longitude": 101.7112844
+  },
+  "name": "Les Bouchons",
+  "osmName": "Les Bouchons",
+  "category": "Restaurant",
+  "destination": "Kuala Lumpur",
+  "nearestAnchor": "Petronas Twin Towers",
+  "distanceMeters": 280.23919355593586,
+  "identityUrl": "https://www.lesbouchonsmalaysia.com/",
+  "priceUrl": "https://www.lesbouchonsmalaysia.com/wp-content/uploads/LBKL-Set-Lunch-2025.pdf?misc=20250910_180844",
+  "address": "Jalan Mayang, Kuala Lumpur",
+  "price": {
+    "amountMYR": 68,
+    "unit": "set lunch per person",
+    "basis": "KL two-course weekday set lunch, published 2025; excludes service charge and tax",
+    "level": 3
+  },
+  "locationNote": "OSM coordinates; no independent geocoding was performed.",
+  "openStatusNote": "Venue-operated page or linked booking engine was reachable on the check date; no site visit was performed."
+}

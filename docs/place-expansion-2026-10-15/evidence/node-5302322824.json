@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-16",
+  "status": "provisionally shortlisted; desk-checked from web sources, not site visits",
+  "osm": {
+    "type": "node",
+    "id": 5302322824,
+    "latitude": 3.1556503,
+    "longitude": 101.7094818
+  },
+  "name": "Samad Al Iraqi",
+  "osmName": "Samad Al Iraqi",
+  "category": "Restaurant",
+  "destination": "Kuala Lumpur",
+  "nearestAnchor": "Petronas Twin Towers",
+  "distanceMeters": 321.44757788929724,
+  "identityUrl": "https://samadaliraqirestaurant.com.my/en/contact/",
+  "priceUrl": "https://samadaliraqirestaurant.com.my/en/our-menu/",
+  "address": "G-3 Menara Prestige, 1 Jalan Pinang, 50450 Kuala Lumpur",
+  "price": {
+    "amountMYR": 60,
+    "unit": "main dish",
+    "basis": "Iraqi lamb and rice dish listed at RM60 on venue menu",
+    "level": 3
+  },
+  "locationNote": "OSM coordinates; no independent geocoding was performed.",
+  "openStatusNote": "Venue-operated page or linked booking engine was reachable on the check date; no site visit was performed."
+}

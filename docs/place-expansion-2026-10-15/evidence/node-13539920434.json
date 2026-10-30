@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-16",
+  "status": "provisionally shortlisted; desk-checked from web sources, not site visits",
+  "osm": {
+    "type": "node",
+    "id": 13539920434,
+    "latitude": 3.1541033,
+    "longitude": 101.7150455
+  },
+  "name": "Traders Hotel",
+  "osmName": "Traders Hotel",
+  "category": "Accommodation",
+  "destination": "Kuala Lumpur",
+  "nearestAnchor": "KLCC Park",
+  "distanceMeters": 498.70953310552625,
+  "identityUrl": "https://www.shangri-la.com/shangrila/city/kualalumpur/",
+  "priceUrl": "https://www.shangri-la.com/shangrila/city/kualalumpur/",
+  "address": "Kuala Lumpur City Centre, 50088 Kuala Lumpur",
+  "price": {
+    "amountMYR": 629,
+    "unit": "average room night",
+    "basis": "Traders Kuala Lumpur average per night on operator city page",
+    "level": 3
+  },
+  "locationNote": "OSM coordinates; no independent geocoding was performed.",
+  "openStatusNote": "Venue-operated page or linked booking engine was reachable on the check date; no site visit was performed."
+}

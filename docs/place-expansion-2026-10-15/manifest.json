@@ -1,0 +1,583 @@
+{
+  "schemaVersion": 2,
+  "checkedAt": "2026-10-16",
+  "sourceSnapshot": "388b0f6c0b37924efbdab882a30ed80aa852e3738f0b6d968c3b12f0c737d1aa",
+  "newDestinations": [],
+  "places": [
+    {
+      "name": "Mandarin Oriental Kuala Lumpur",
+      "destination": "Kuala Lumpur",
+      "category": "Accommodation",
+      "osm": {
+        "type": "node",
+        "id": 5792437253,
+        "latitude": 3.1559992,
+        "longitude": 101.7116181,
+        "addrCity": null
+      },
+      "officialSource": "https://www.mandarinoriental.com/en/kuala-lumpur/petronas-towers",
+      "priceSource": "https://www.mandarinoriental.com/en/kuala-lumpur/petronas-towers",
+      "evidencePath": "evidence/node-5792437253.json",
+      "status": "source_verified",
+      "seedReady": true,
+      "seed": {
+        "description": "Hotel accommodation in Kuala Lumpur near KLCC Park.",
+        "address": "Kuala Lumpur City Centre, 50088 Kuala Lumpur",
+        "rating": null,
+        "priceLevel": 4,
+        "imageUrl": null,
+        "tags": [
+          "hotel",
+          "accommodation"
+        ],
+        "travelStyleTags": [
+          "urban",
+          "relaxed"
+        ],
+        "activityTypes": [
+          "staying"
+        ]
+      }
+    },
+    {
+      "name": "Maya Hotel",
+      "destination": "Kuala Lumpur",
+      "category": "Accommodation",
+      "osm": {
+        "type": "node",
+        "id": 4625396045,
+        "latitude": 3.1586497,
+        "longitude": 101.7080652,
+        "addrCity": "Kuala Lumpur"
+      },
+      "officialSource": "https://hotelmaya.com.my/stay",
+      "priceSource": "https://hotelmaya.com.my/promotions/best-available-rate",
+      "evidencePath": "evidence/node-4625396045.json",
+      "status": "source_verified",
+      "seedReady": true,
+      "seed": {
+        "description": "Hotel accommodation in Kuala Lumpur near Petronas Twin Towers.",
+        "address": "138 Jalan Ampang, 50450 Kuala Lumpur",
+        "rating": null,
+        "priceLevel": 3,
+        "imageUrl": null,
+        "tags": [
+          "hotel",
+          "accommodation"
+        ],
+        "travelStyleTags": [
+          "urban",
+          "relaxed"
+        ],
+        "activityTypes": [
+          "staying"
+        ]
+      }
+    },
+    {
+      "name": "Shangri-La Hotel",
+      "destination": "Kuala Lumpur",
+      "category": "Accommodation",
+      "osm": {
+        "type": "node",
+        "id": 2021291518,
+        "latitude": 3.1541698,
+        "longitude": 101.7064587,
+        "addrCity": "Kuala Lumpur"
+      },
+      "officialSource": "https://www.shangri-la.com/shangrila/city/kualalumpur/",
+      "priceSource": "https://www.shangri-la.com/shangrila/city/kualalumpur/",
+      "evidencePath": "evidence/node-2021291518.json",
+      "status": "source_verified",
+      "seedReady": true,
+      "seed": {
+        "description": "Hotel accommodation in Kuala Lumpur near Petronas Twin Towers.",
+        "address": "11 Jalan Sultan Ismail, 50250 Kuala Lumpur",
+        "rating": null,
+        "priceLevel": 3,
+        "imageUrl": null,
+        "tags": [
+          "hotel",
+          "accommodation"
+        ],
+        "travelStyleTags": [
+          "urban",
+          "relaxed"
+        ],
+        "activityTypes": [
+          "staying"
+        ]
+      }
+    },
+    {
+      "name": "Traders Hotel",
+      "destination": "Kuala Lumpur",
+      "category": "Accommodation",
+      "osm": {
+        "type": "node",
+        "id": 13539920434,
+        "latitude": 3.1541033,
+        "longitude": 101.7150455,
+        "addrCity": "Kuala Lumpur"
+      },
+      "officialSource": "https://www.shangri-la.com/shangrila/city/kualalumpur/",
+      "priceSource": "https://www.shangri-la.com/shangrila/city/kualalumpur/",
+      "evidencePath": "evidence/node-13539920434.json",
+      "status": "source_verified",
+      "seedReady": true,
+      "seed": {
+        "description": "Hotel accommodation in Kuala Lumpur near KLCC Park.",
+        "address": "Kuala Lumpur City Centre, 50088 Kuala Lumpur",
+        "rating": null,
+        "priceLevel": 3,
+        "imageUrl": null,
+        "tags": [
+          "hotel",
+          "accommodation"
+        ],
+        "travelStyleTags": [
+          "urban",
+          "relaxed"
+        ],
+        "activityTypes": [
+          "staying"
+        ]
+      }
+    },
+    {
+      "name": "Les Bouchons",
+      "destination": "Kuala Lumpur",
+      "category": "Restaurant",
+      "osm": {
+        "type": "node",
+        "id": 7474118086,
+        "latitude": 3.1604202,
+        "longitude": 101.7112844,
+        "addrCity": null
+      },
+      "officialSource": "https://www.lesbouchonsmalaysia.com/",
+      "priceSource": "https://www.lesbouchonsmalaysia.com/wp-content/uploads/LBKL-Set-Lunch-2025.pdf?misc=20250910_180844",
+      "evidencePath": "evidence/node-7474118086.json",
+      "status": "source_verified",
+      "seedReady": true,
+      "seed": {
+        "description": "Restaurant in Kuala Lumpur near Petronas Twin Towers.",
+        "address": "Jalan Mayang, Kuala Lumpur",
+        "rating": null,
+        "priceLevel": 3,
+        "imageUrl": null,
+        "tags": [
+          "restaurant",
+          "food"
+        ],
+        "travelStyleTags": [
+          "food",
+          "urban"
+        ],
+        "activityTypes": [
+          "dining"
+        ]
+      }
+    },
+    {
+      "name": "Samad Al Iraqi",
+      "destination": "Kuala Lumpur",
+      "category": "Restaurant",
+      "osm": {
+        "type": "node",
+        "id": 5302322824,
+        "latitude": 3.1556503,
+        "longitude": 101.7094818,
+        "addrCity": null
+      },
+      "officialSource": "https://samadaliraqirestaurant.com.my/en/contact/",
+      "priceSource": "https://samadaliraqirestaurant.com.my/en/our-menu/",
+      "evidencePath": "evidence/node-5302322824.json",
+      "status": "source_verified",
+      "seedReady": true,
+      "seed": {
+        "description": "Restaurant in Kuala Lumpur near Petronas Twin Towers.",
+        "address": "G-3 Menara Prestige, 1 Jalan Pinang, 50450 Kuala Lumpur",
+        "rating": null,
+        "priceLevel": 3,
+        "imageUrl": null,
+        "tags": [
+          "restaurant",
+          "food"
+        ],
+        "travelStyleTags": [
+          "food",
+          "urban"
+        ],
+        "activityTypes": [
+          "dining"
+        ]
+      }
+    },
+    {
+      "name": "Thirty8",
+      "destination": "Kuala Lumpur",
+      "category": "Restaurant",
+      "osm": {
+        "type": "node",
+        "id": 13099974430,
+        "latitude": 3.1536517,
+        "longitude": 101.7122675,
+        "addrCity": null
+      },
+      "officialSource": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur/dining/thirty8",
+      "priceSource": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur/dining/thirty8",
+      "evidencePath": "evidence/node-13099974430.json",
+      "status": "source_verified",
+      "seedReady": true,
+      "seed": {
+        "description": "Restaurant in Kuala Lumpur near KLCC Park.",
+        "address": "Level 38, Grand Hyatt Kuala Lumpur, 12 Jalan Pinang, 50450 Kuala Lumpur",
+        "rating": null,
+        "priceLevel": 4,
+        "imageUrl": null,
+        "tags": [
+          "restaurant",
+          "food"
+        ],
+        "travelStyleTags": [
+          "food",
+          "urban"
+        ],
+        "activityTypes": [
+          "dining"
+        ]
+      }
+    },
+    {
+      "name": "Gingerflower Boutique Hotel",
+      "destination": "Melaka",
+      "category": "Accommodation",
+      "osm": {
+        "type": "node",
+        "id": 4853164222,
+        "latitude": 2.1945796,
+        "longitude": 102.2475416,
+        "addrCity": null
+      },
+      "officialSource": "https://gingerflowerboutiquehotel.com/",
+      "priceSource": "https://live.ipms247.com/booking/book-rooms-gingerflowerboutiquehotel",
+      "evidencePath": "evidence/node-4853164222.json",
+      "status": "source_verified",
+      "seedReady": true,
+      "seed": {
+        "description": "Hotel accommodation in Melaka near Jonker Street.",
+        "address": "13 Jalan Tun Tan Cheng Lock, 75200 Melaka",
+        "rating": null,
+        "priceLevel": 2,
+        "imageUrl": null,
+        "tags": [
+          "hotel",
+          "accommodation"
+        ],
+        "travelStyleTags": [
+          "urban",
+          "relaxed"
+        ],
+        "activityTypes": [
+          "staying"
+        ]
+      }
+    },
+    {
+      "name": "Liu Men Melaka",
+      "destination": "Melaka",
+      "category": "Accommodation",
+      "osm": {
+        "type": "way",
+        "id": 285911176,
+        "latitude": 2.1979456,
+        "longitude": 102.2464626,
+        "addrCity": null
+      },
+      "officialSource": "https://liumenhotel.com/",
+      "priceSource": "https://book-directonline.com/properties/liumenmelakadirect",
+      "evidencePath": "evidence/way-285911176.json",
+      "status": "source_verified",
+      "seedReady": true,
+      "seed": {
+        "description": "Hotel accommodation in Melaka near Jonker Street.",
+        "address": "48-56 Jalan Tokong, 75200 Melaka",
+        "rating": null,
+        "priceLevel": 3,
+        "imageUrl": null,
+        "tags": [
+          "hotel",
+          "accommodation"
+        ],
+        "travelStyleTags": [
+          "urban",
+          "relaxed"
+        ],
+        "activityTypes": [
+          "staying"
+        ]
+      }
+    },
+    {
+      "name": "Swiss-Garden Hotel & Residences Malacca",
+      "destination": "Melaka",
+      "category": "Accommodation",
+      "osm": {
+        "type": "node",
+        "id": 3861225843,
+        "latitude": 2.2022889,
+        "longitude": 102.2498024,
+        "addrCity": null
+      },
+      "officialSource": "https://www.swissgarden.com/hotel-melaka/rooms/",
+      "priceSource": "https://book.swissgarden.com/swiss-garden-melaka/select_room?checkin_date=2026-10-16&nights=1&num_adults=2&num_children=0",
+      "evidencePath": "evidence/node-3861225843.json",
+      "status": "source_verified",
+      "seedReady": true,
+      "seed": {
+        "description": "Hotel accommodation in Melaka near Jonker Street.",
+        "address": "The Shore at Melaka River, Jalan Persisiran Bunga Raya, 75300 Melaka",
+        "rating": null,
+        "priceLevel": 2,
+        "imageUrl": null,
+        "tags": [
+          "hotel",
+          "accommodation"
+        ],
+        "travelStyleTags": [
+          "urban",
+          "relaxed"
+        ],
+        "activityTypes": [
+          "staying"
+        ]
+      }
+    },
+    {
+      "name": "JEN Penang Georgetown by Shangri-La",
+      "destination": "Penang",
+      "category": "Accommodation",
+      "osm": {
+        "type": "way",
+        "id": 993213423,
+        "latitude": 5.4135637,
+        "longitude": 100.3302871,
+        "addrCity": "George Town"
+      },
+      "officialSource": "https://www.shangri-la.com/shangrila/city/penang/",
+      "priceSource": "https://www.shangri-la.com/shangrila/city/penang/",
+      "evidencePath": "evidence/way-993213423.json",
+      "status": "source_verified",
+      "seedReady": true,
+      "seed": {
+        "description": "Hotel accommodation in Penang near George Town.",
+        "address": "Magazine Road, George Town, 10300 Penang",
+        "rating": null,
+        "priceLevel": 2,
+        "imageUrl": null,
+        "tags": [
+          "hotel",
+          "accommodation"
+        ],
+        "travelStyleTags": [
+          "urban",
+          "relaxed"
+        ],
+        "activityTypes": [
+          "staying"
+        ]
+      }
+    },
+    {
+      "name": "Shangri-La Golden Sands Resort",
+      "destination": "Penang",
+      "category": "Accommodation",
+      "osm": {
+        "type": "way",
+        "id": 247177983,
+        "latitude": 5.4767508,
+        "longitude": 100.2514295,
+        "addrCity": "Batu Ferringhi"
+      },
+      "officialSource": "https://www.shangri-la.com/shangrila/city/penang/",
+      "priceSource": "https://www.shangri-la.com/shangrila/city/penang/",
+      "evidencePath": "evidence/way-247177983.json",
+      "status": "source_verified",
+      "seedReady": true,
+      "seed": {
+        "description": "Hotel accommodation in Penang near Batu Ferringhi Beach.",
+        "address": "Batu Ferringhi Beach, 11100 Penang",
+        "rating": null,
+        "priceLevel": 2,
+        "imageUrl": null,
+        "tags": [
+          "hotel",
+          "accommodation"
+        ],
+        "travelStyleTags": [
+          "urban",
+          "relaxed"
+        ],
+        "activityTypes": [
+          "staying"
+        ]
+      }
+    },
+    {
+      "name": "Yeng Keng Hotel",
+      "destination": "Penang",
+      "category": "Accommodation",
+      "osm": {
+        "type": "way",
+        "id": 268561988,
+        "latitude": 5.4192483,
+        "longitude": 100.3350151,
+        "addrCity": null
+      },
+      "officialSource": "https://www.yengkenghotel.com/promo/",
+      "priceSource": "https://www.yengkenghotel.com/promo/",
+      "evidencePath": "evidence/way-268561988.json",
+      "status": "source_verified",
+      "seedReady": true,
+      "seed": {
+        "description": "Hotel accommodation in Penang near Little India.",
+        "address": "362 Chulia Street, George Town, 10200 Penang",
+        "rating": null,
+        "priceLevel": 3,
+        "imageUrl": null,
+        "tags": [
+          "hotel",
+          "accommodation"
+        ],
+        "travelStyleTags": [
+          "urban",
+          "relaxed"
+        ],
+        "activityTypes": [
+          "staying"
+        ]
+      }
+    },
+    {
+      "name": "Chulia Court",
+      "destination": "Penang",
+      "category": "Restaurant",
+      "osm": {
+        "type": "node",
+        "id": 4107256820,
+        "latitude": 5.4183371,
+        "longitude": 100.336081,
+        "addrCity": "George Town"
+      },
+      "officialSource": "https://www.chuliacourt.com.my/",
+      "priceSource": "https://www.chuliacourt.com.my/blog/chulia-court-live-music-dinner-night-out-georgetown-penang",
+      "evidencePath": "evidence/node-4107256820.json",
+      "status": "source_verified",
+      "seedReady": true,
+      "seed": {
+        "description": "Restaurant in Penang near Little India.",
+        "address": "355, 357 and 359 Lebuh Chulia, 10200 George Town, Penang",
+        "rating": null,
+        "priceLevel": 2,
+        "imageUrl": null,
+        "tags": [
+          "restaurant",
+          "food"
+        ],
+        "travelStyleTags": [
+          "food",
+          "urban"
+        ],
+        "activityTypes": [
+          "dining"
+        ]
+      }
+    },
+    {
+      "name": "Restaurant Au Jardin",
+      "destination": "Penang",
+      "category": "Restaurant",
+      "osm": {
+        "type": "node",
+        "id": 9843832039,
+        "latitude": 5.4119979,
+        "longitude": 100.3275472,
+        "addrCity": "George Town"
+      },
+      "officialSource": "https://www.restaurant-aujardin.com/",
+      "priceSource": "https://www.restaurant-aujardin.com/_files/ugd/3b5fc6_2c10a6410693464c9fd1f1552348ea52.pdf",
+      "evidencePath": "evidence/node-9843832039.json",
+      "status": "source_verified",
+      "seedReady": true,
+      "seed": {
+        "description": "Restaurant in Penang near George Town.",
+        "address": "The Warehouse at Hin Bus Depot, 125 Jalan Timah, 10150 George Town, Penang",
+        "rating": null,
+        "priceLevel": 4,
+        "imageUrl": null,
+        "tags": [
+          "restaurant",
+          "food"
+        ],
+        "travelStyleTags": [
+          "food",
+          "urban"
+        ],
+        "activityTypes": [
+          "dining"
+        ]
+      }
+    },
+    {
+      "name": "The Grand Lebanon, Batu Ferringhi",
+      "destination": "Penang",
+      "category": "Restaurant",
+      "osm": {
+        "type": "way",
+        "id": 275631928,
+        "latitude": 5.4692649,
+        "longitude": 100.2440325,
+        "addrCity": "Batu Ferringhi"
+      },
+      "officialSource": "https://lebanonrestaurant.com.my/menu-book/",
+      "priceSource": "https://lebanonrestaurant.com.my/menu-book/",
+      "evidencePath": "evidence/way-275631928.json",
+      "status": "source_verified",
+      "seedReady": true,
+      "seed": {
+        "description": "Restaurant in Penang near Batu Ferringhi Beach.",
+        "address": "110-1A and 1B Jalan Batu Ferringhi, 11100 Batu Ferringhi, Penang",
+        "rating": null,
+        "priceLevel": 2,
+        "imageUrl": null,
+        "tags": [
+          "restaurant",
+          "food"
+        ],
+        "travelStyleTags": [
+          "food",
+          "urban"
+        ],
+        "activityTypes": [
+          "dining"
+        ]
+      }
+    }
+  ],
+  "requested": {
+    "Accommodation": 10,
+    "Restaurant": 10
+  },
+  "reviewedCounts": {
+    "Kuala Lumpur:Accommodation": 4,
+    "Penang:Accommodation": 3,
+    "Melaka:Accommodation": 3,
+    "Kuala Lumpur:Restaurant": 3,
+    "Penang:Restaurant": 3
+  },
+  "shortfall": {
+    "Accommodation": 0,
+    "Restaurant": 4
+  }
+}

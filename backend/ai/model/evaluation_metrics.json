@@ -1,0 +1,19 @@
+{
+  "dataset_rows": 30,
+  "users": 2,
+  "k": 5,
+  "relevance_threshold": 4,
+  "metrics": {
+    "ml_model": {
+      "precision_at_5": 0.5,
+      "recall_at_5": 0.4167,
+      "ndcg_at_5": 0.4929
+    },
+    "rating_baseline": {
+      "precision_at_5": 0.4,
+      "recall_at_5": 0.3333,
+      "ndcg_at_5": 0.3608
+    }
+  },
+  "warning": "The current dataset is a small development dataset. Evaluation results must not be presented as final generalization performance."
+}

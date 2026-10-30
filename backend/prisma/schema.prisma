@@ -1,0 +1,182 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum TimeSlot {
+  Morning
+  Afternoon
+  Evening
+}
+
+enum UserRole {
+  user
+  admin
+}
+
+enum AdminAuditAction {
+  PLACE_ARCHIVED
+  ITINERARY_DELETED
+  PLACE_CREATED
+  PLACE_RESTORED
+}
+
+model User {
+  id             String          @id @default(cuid())
+  name           String
+  email          String          @unique
+  passwordHash   String
+  avatar         String?
+  role           UserRole        @default(user)
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
+  preference     UserPreference?
+  itineraries    Itinerary[]
+  savedPlaces    SavedPlace[]
+  adminAuditLogs AdminAuditLog[]
+
+  @@map("users")
+}
+
+model UserPreference {
+  id                      Int      @id @default(autoincrement())
+  userId                  String   @unique
+  budget                  String?
+  travelStyle             String?
+  interests               String[]
+  preferredActivities     String[]
+  dietaryPreferences      String[]
+  preferredTransportation String?
+  tripDuration            String?
+  createdAt               DateTime @default(now())
+  updatedAt               DateTime @updatedAt
+  user                    User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("user_preferences")
+}
+
+model Destination {
+  id          Int         @id @default(autoincrement())
+  name        String      @unique
+  city        String
+  state       String
+  description String
+  imageUrl    String
+  latitude    Decimal?    @db.Decimal(9, 6)
+  longitude   Decimal?    @db.Decimal(9, 6)
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+  places      Place[]
+  itineraries Itinerary[]
+
+  @@index([state])
+  @@index([city])
+  @@map("destinations")
+}
+
+model Place {
+  id              Int             @id @default(autoincrement())
+  destinationId   Int
+  name            String
+  category        String
+  description     String
+  address         String?
+  latitude        Decimal?        @db.Decimal(9, 6)
+  longitude       Decimal?        @db.Decimal(9, 6)
+  rating          Decimal?        @db.Decimal(2, 1)
+  priceLevel      Int?
+  imageUrl        String?
+  tags            String[]
+  travelStyleTags String[]
+  activityTypes   String[]
+  sourceUrl       String?
+  displayTags     String[]        @default([])
+  deletedAt       DateTime?
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+  destination     Destination     @relation(fields: [destinationId], references: [id], onDelete: Cascade)
+  savedBy         SavedPlace[]
+  itineraryItems  ItineraryItem[]
+
+  @@unique([destinationId, name])
+  @@index([destinationId])
+  @@index([category])
+  @@index([rating])
+  @@index([deletedAt])
+  @@map("places")
+}
+
+model AdminAuditLog {
+  id          Int              @id @default(autoincrement())
+  adminUserId String
+  action      AdminAuditAction
+  targetType  String
+  targetId    String
+  targetLabel String?
+  metadata    Json?
+  createdAt   DateTime         @default(now())
+  admin       User             @relation(fields: [adminUserId], references: [id], onDelete: Restrict)
+
+  @@index([adminUserId])
+  @@index([action])
+  @@index([targetType, targetId])
+  @@index([createdAt])
+  @@map("admin_audit_logs")
+}
+
+model SavedPlace {
+  id        Int      @id @default(autoincrement())
+  userId    String
+  placeId   Int
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  place     Place    @relation(fields: [placeId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, placeId])
+  @@index([userId])
+  @@index([placeId])
+  @@map("saved_places")
+}
+
+model Itinerary {
+  id            Int             @id @default(autoincrement())
+  userId        String
+  destinationId Int?
+  title         String
+  startDate     DateTime?
+  endDate       DateTime?
+  budget        Decimal?        @db.Decimal(10, 2)
+  status        String          @default("planned")
+  createdAt     DateTime        @default(now())
+  updatedAt     DateTime        @updatedAt
+  user          User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  destination   Destination?    @relation(fields: [destinationId], references: [id], onDelete: SetNull)
+  items         ItineraryItem[]
+
+  @@index([userId])
+  @@index([destinationId])
+  @@map("itineraries")
+}
+
+model ItineraryItem {
+  id                Int       @id @default(autoincrement())
+  itineraryId       Int
+  placeId           Int
+  day               Int
+  timeSlot          TimeSlot
+  order             Int
+  notes             String?
+  estimatedDuration String?
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  itinerary         Itinerary @relation(fields: [itineraryId], references: [id], onDelete: Cascade)
+  place             Place     @relation(fields: [placeId], references: [id], onDelete: Restrict)
+
+  @@unique([itineraryId, day, timeSlot, order])
+  @@index([itineraryId, day, timeSlot, order])
+  @@index([placeId])
+  @@map("itinerary_items")
+}

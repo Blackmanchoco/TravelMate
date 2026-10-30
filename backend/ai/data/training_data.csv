@@ -1,0 +1,31 @@
+user_id,destination_id,destination_name,city,state,place_id,place_name,place_category,rating,price_level,budget,travel_style,interest_match,activity_match,budget_match,preferred_transportation,trip_duration,dietary_preferences,interaction_type,interaction_score
+cmtr3od8c0000k4tyqtc7n6ma,1,Kuala Lumpur,Kuala Lumpur,Wilayah Persekutuan,1,Petronas Twin Towers,Attraction,4.8,3,Moderate,Relaxed,0,1,0.5,Public Transport,3-5 days,No Pork,none,0
+cmtr3od8c0000k4tyqtc7n6ma,1,Kuala Lumpur,Kuala Lumpur,Wilayah Persekutuan,2,KLCC Park,Nature,4.7,2,Moderate,Relaxed,1,1,1.0,Public Transport,3-5 days,No Pork,none,0
+cmtr3od8c0000k4tyqtc7n6ma,1,Kuala Lumpur,Kuala Lumpur,Wilayah Persekutuan,3,Batu Caves,Historical,4.6,2,Moderate,Relaxed,1,1,1.0,Public Transport,3-5 days,No Pork,none,0
+cmtr3od8c0000k4tyqtc7n6ma,1,Kuala Lumpur,Kuala Lumpur,Wilayah Persekutuan,4,Bukit Bintang,Shopping,4.5,3,Moderate,Relaxed,0,0,0.5,Public Transport,3-5 days,No Pork,none,0
+cmtr3od8c0000k4tyqtc7n6ma,1,Kuala Lumpur,Kuala Lumpur,Wilayah Persekutuan,5,Jalan Alor,Restaurant,4.7,2,Moderate,Relaxed,1,0,1.0,Public Transport,3-5 days,No Pork,none,0
+cmtr3od8c0000k4tyqtc7n6ma,2,Penang,George Town,Penang,6,George Town,Culture,4.8,2,Moderate,Relaxed,1,1,1.0,Public Transport,3-5 days,No Pork,none,0
+cmtr3od8c0000k4tyqtc7n6ma,2,Penang,George Town,Penang,7,Penang Hill,Nature,4.7,3,Moderate,Relaxed,1,1,0.5,Public Transport,3-5 days,No Pork,none,0
+cmtr3od8c0000k4tyqtc7n6ma,2,Penang,George Town,Penang,8,Kek Lok Si Temple,Culture,4.8,2,Moderate,Relaxed,1,1,1.0,Public Transport,3-5 days,No Pork,none,0
+cmtr3od8c0000k4tyqtc7n6ma,2,Penang,George Town,Penang,9,Batu Ferringhi Beach,Nature,4.6,3,Moderate,Relaxed,1,1,0.5,Public Transport,3-5 days,No Pork,none,0
+cmtr3od8c0000k4tyqtc7n6ma,2,Penang,George Town,Penang,10,Little India,Culture,4.5,2,Moderate,Relaxed,1,1,1.0,Public Transport,3-5 days,No Pork,none,0
+cmtr3od8c0000k4tyqtc7n6ma,3,Melaka,Melaka City,Melaka,11,Jonker Street,Culture,4.7,2,Moderate,Relaxed,1,1,1.0,Public Transport,3-5 days,No Pork,none,0
+cmtr3od8c0000k4tyqtc7n6ma,3,Melaka,Melaka City,Melaka,12,A Famosa,Historical,4.5,2,Moderate,Relaxed,1,1,1.0,Public Transport,3-5 days,No Pork,none,0
+cmtr3od8c0000k4tyqtc7n6ma,3,Melaka,Melaka City,Melaka,13,Stadthuys,Historical,4.6,2,Moderate,Relaxed,1,1,1.0,Public Transport,3-5 days,No Pork,none,0
+cmtr3od8c0000k4tyqtc7n6ma,3,Melaka,Melaka City,Melaka,14,Melaka River,Nature,4.4,2,Moderate,Relaxed,1,1,1.0,Public Transport,3-5 days,No Pork,none,0
+cmtr3od8c0000k4tyqtc7n6ma,3,Melaka,Melaka City,Melaka,15,Cheng Hoon Teng Temple,Culture,4.7,2,Moderate,Relaxed,1,1,1.0,Public Transport,3-5 days,No Pork,none,0
+cmtr4yy820000jstyz5wpoym0,1,Kuala Lumpur,Kuala Lumpur,Wilayah Persekutuan,1,Petronas Twin Towers,Attraction,4.8,3,Mid-range,Relaxed Luxury,0,0,0.5,Drive,3-4 days,Vegetarian-friendly|Seafood,saved,4
+cmtr4yy820000jstyz5wpoym0,1,Kuala Lumpur,Kuala Lumpur,Wilayah Persekutuan,2,KLCC Park,Nature,4.7,2,Mid-range,Relaxed Luxury,1,1,1.0,Drive,3-4 days,Vegetarian-friendly|Seafood,saved,4
+cmtr4yy820000jstyz5wpoym0,1,Kuala Lumpur,Kuala Lumpur,Wilayah Persekutuan,3,Batu Caves,Historical,4.6,2,Mid-range,Relaxed Luxury,1,1,1.0,Drive,3-4 days,Vegetarian-friendly|Seafood,saved,4
+cmtr4yy820000jstyz5wpoym0,1,Kuala Lumpur,Kuala Lumpur,Wilayah Persekutuan,4,Bukit Bintang,Shopping,4.5,3,Mid-range,Relaxed Luxury,0,0,0.5,Drive,3-4 days,Vegetarian-friendly|Seafood,none,0
+cmtr4yy820000jstyz5wpoym0,1,Kuala Lumpur,Kuala Lumpur,Wilayah Persekutuan,5,Jalan Alor,Restaurant,4.7,2,Mid-range,Relaxed Luxury,1,1,1.0,Drive,3-4 days,Vegetarian-friendly|Seafood,none,0
+cmtr4yy820000jstyz5wpoym0,2,Penang,George Town,Penang,6,George Town,Culture,4.8,2,Mid-range,Relaxed Luxury,1,1,1.0,Drive,3-4 days,Vegetarian-friendly|Seafood,itinerary,5
+cmtr4yy820000jstyz5wpoym0,2,Penang,George Town,Penang,7,Penang Hill,Nature,4.7,3,Mid-range,Relaxed Luxury,1,1,0.5,Drive,3-4 days,Vegetarian-friendly|Seafood,itinerary,5
+cmtr4yy820000jstyz5wpoym0,2,Penang,George Town,Penang,8,Kek Lok Si Temple,Culture,4.8,2,Mid-range,Relaxed Luxury,1,1,1.0,Drive,3-4 days,Vegetarian-friendly|Seafood,itinerary,5
+cmtr4yy820000jstyz5wpoym0,2,Penang,George Town,Penang,9,Batu Ferringhi Beach,Nature,4.6,3,Mid-range,Relaxed Luxury,1,1,0.5,Drive,3-4 days,Vegetarian-friendly|Seafood,none,0
+cmtr4yy820000jstyz5wpoym0,2,Penang,George Town,Penang,10,Little India,Culture,4.5,2,Mid-range,Relaxed Luxury,1,1,1.0,Drive,3-4 days,Vegetarian-friendly|Seafood,none,0
+cmtr4yy820000jstyz5wpoym0,3,Melaka,Melaka City,Melaka,11,Jonker Street,Culture,4.7,2,Mid-range,Relaxed Luxury,1,1,1.0,Drive,3-4 days,Vegetarian-friendly|Seafood,none,0
+cmtr4yy820000jstyz5wpoym0,3,Melaka,Melaka City,Melaka,12,A Famosa,Historical,4.5,2,Mid-range,Relaxed Luxury,1,1,1.0,Drive,3-4 days,Vegetarian-friendly|Seafood,none,0
+cmtr4yy820000jstyz5wpoym0,3,Melaka,Melaka City,Melaka,13,Stadthuys,Historical,4.6,2,Mid-range,Relaxed Luxury,1,1,1.0,Drive,3-4 days,Vegetarian-friendly|Seafood,none,0
+cmtr4yy820000jstyz5wpoym0,3,Melaka,Melaka City,Melaka,14,Melaka River,Nature,4.4,2,Mid-range,Relaxed Luxury,1,1,1.0,Drive,3-4 days,Vegetarian-friendly|Seafood,none,0
+cmtr4yy820000jstyz5wpoym0,3,Melaka,Melaka City,Melaka,15,Cheng Hoon Teng Temple,Culture,4.7,2,Mid-range,Relaxed Luxury,1,1,1.0,Drive,3-4 days,Vegetarian-friendly|Seafood,none,0

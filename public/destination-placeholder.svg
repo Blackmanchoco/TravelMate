@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Generic TravelMate destination illustration">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#0f3f68"/>
+      <stop offset="1" stop-color="#78bdd1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#sky)"/>
+  <circle cx="950" cy="170" r="76" fill="#fbd593" opacity=".9"/>
+  <path d="M0 475 185 280 360 470 550 240 760 480 945 325 1200 515V675H0Z" fill="#245a70"/>
+  <path d="M0 550 240 430 480 575 750 405 1000 530 1200 450V675H0Z" fill="#174754"/>
+  <path d="M0 570q210-45 400 0t400 0 400 0v105H0Z" fill="#123c4b"/>
+  <text x="72" y="620" fill="white" font-family="Arial,sans-serif" font-size="32" letter-spacing="5">TRAVELMATE</text>
+</svg>

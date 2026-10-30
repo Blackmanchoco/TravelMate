@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-16",
+  "status": "provisionally shortlisted; desk-checked from web sources, not site visits",
+  "osm": {
+    "type": "node",
+    "id": 4853164222,
+    "latitude": 2.1945796,
+    "longitude": 102.2475416
+  },
+  "name": "Gingerflower Boutique Hotel",
+  "osmName": "Gingerflower Boutique Hotel",
+  "category": "Accommodation",
+  "destination": "Melaka",
+  "nearestAnchor": "Jonker Street",
+  "distanceMeters": 93.93109467898759,
+  "identityUrl": "https://gingerflowerboutiquehotel.com/",
+  "priceUrl": "https://live.ipms247.com/booking/book-rooms-gingerflowerboutiquehotel",
+  "address": "13 Jalan Tun Tan Cheng Lock, 75200 Melaka",
+  "price": {
+    "amountMYR": 236.64,
+    "unit": "room night",
+    "basis": "Superior Room Only, 2 adults, 16-17 Oct 2026, including tax, on hotel-linked booking engine",
+    "level": 2
+  },
+  "locationNote": "OSM coordinates; no independent geocoding was performed.",
+  "openStatusNote": "Venue-operated page or linked booking engine was reachable on the check date; no site visit was performed."
+}

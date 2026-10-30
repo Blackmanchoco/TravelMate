@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-16",
+  "status": "provisionally shortlisted; desk-checked from web sources, not site visits",
+  "osm": {
+    "type": "way",
+    "id": 275631928,
+    "latitude": 5.4692649,
+    "longitude": 100.2440325
+  },
+  "name": "The Grand Lebanon, Batu Ferringhi",
+  "osmName": "The Grand Lebanon, Batu Ferringhi",
+  "category": "Restaurant",
+  "destination": "Penang",
+  "nearestAnchor": "Batu Ferringhi Beach",
+  "distanceMeters": 241.338098071117,
+  "identityUrl": "https://lebanonrestaurant.com.my/menu-book/",
+  "priceUrl": "https://lebanonrestaurant.com.my/menu-book/",
+  "address": "110-1A and 1B Jalan Batu Ferringhi, 11100 Batu Ferringhi, Penang",
+  "price": {
+    "amountMYR": 31.8,
+    "unit": "main dish",
+    "basis": "Vegetable briyani RM31.80 on restaurant menu",
+    "level": 2
+  },
+  "locationNote": "OSM coordinates; no independent geocoding was performed.",
+  "openStatusNote": "Venue-operated page or linked booking engine was reachable on the check date; no site visit was performed."
+}

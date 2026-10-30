@@ -1,0 +1,31 @@
+{
+  "model_version": "v2",
+  "model": "RandomForestRegressor",
+  "dataset_rows": 30,
+  "users": 2,
+  "places": 15,
+  "training_rows": 24,
+  "testing_rows": 6,
+  "features": [
+    "budget",
+    "travel_style",
+    "interest_match",
+    "activity_match",
+    "budget_match",
+    "travel_style_match",
+    "tag_match",
+    "activity_tag_match",
+    "preferred_transportation",
+    "trip_duration",
+    "place_category",
+    "rating_score",
+    "price_level"
+  ],
+  "n_estimators": 300,
+  "random_state": 42,
+  "metrics": {
+    "mae": 1.2931,
+    "rmse": 1.7256
+  },
+  "warning": "This is an initial development dataset with limited users and interaction records. Results should not be treated as final generalisation performance."
+}

@@ -1,0 +1,14 @@
+import { Router } from "express";
+import { asyncHandler } from "../../core/http/async-handler.js";
+import { requireAuth } from "../../middleware/auth.js";
+import * as c from "./itineraries.controller.js";
+import { budgetAlert } from "./budget-alert.controller.js";
+import { preferenceMatch } from "./preference-match.controller.js";
+import { itineraryWeather } from "./itinerary-weather.controller.js";
+export const itinerariesRoutes = Router(); itinerariesRoutes.use(requireAuth);
+itinerariesRoutes.get("/", asyncHandler(c.list)); itinerariesRoutes.post("/", asyncHandler(c.create));
+itinerariesRoutes.post("/:id/items", asyncHandler(c.createItem)); itinerariesRoutes.patch("/:id/items/:itemId", asyncHandler(c.updateItem)); itinerariesRoutes.delete("/:id/items/:itemId", asyncHandler(c.removeItem));
+itinerariesRoutes.get("/:id/budget-alert", asyncHandler(budgetAlert));
+itinerariesRoutes.get("/:id/preference-match", asyncHandler(preferenceMatch));
+itinerariesRoutes.get("/:id/weather", asyncHandler(itineraryWeather));
+itinerariesRoutes.get("/:id", asyncHandler(c.get)); itinerariesRoutes.patch("/:id", asyncHandler(c.update)); itinerariesRoutes.delete("/:id", asyncHandler(c.remove));

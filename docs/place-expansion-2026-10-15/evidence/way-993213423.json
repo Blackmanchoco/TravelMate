@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-16",
+  "status": "provisionally shortlisted; desk-checked from web sources, not site visits",
+  "osm": {
+    "type": "way",
+    "id": 993213423,
+    "latitude": 5.4135637,
+    "longitude": 100.3302871
+  },
+  "name": "JEN Penang Georgetown by Shangri-La",
+  "osmName": "Hotel Jen",
+  "category": "Accommodation",
+  "destination": "Penang",
+  "nearestAnchor": "George Town",
+  "distanceMeters": 134.30617707387455,
+  "identityUrl": "https://www.shangri-la.com/shangrila/city/penang/",
+  "priceUrl": "https://www.shangri-la.com/shangrila/city/penang/",
+  "address": "Magazine Road, George Town, 10300 Penang",
+  "price": {
+    "amountMYR": 320,
+    "unit": "average room night",
+    "basis": "JEN Penang Georgetown average per night on operator city page; OSM name is the former Hotel Jen branding",
+    "level": 2
+  },
+  "locationNote": "OSM coordinates; no independent geocoding was performed.",
+  "openStatusNote": "Venue-operated page or linked booking engine was reachable on the check date; no site visit was performed."
+}

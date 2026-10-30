@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-16",
+  "status": "provisionally shortlisted; desk-checked from web sources, not site visits",
+  "osm": {
+    "type": "way",
+    "id": 247177983,
+    "latitude": 5.4767508,
+    "longitude": 100.2514295
+  },
+  "name": "Shangri-La Golden Sands Resort",
+  "osmName": "Shangri-La Golden Sands Resort",
+  "category": "Accommodation",
+  "destination": "Penang",
+  "nearestAnchor": "Batu Ferringhi Beach",
+  "distanceMeters": 992.524232039573,
+  "identityUrl": "https://www.shangri-la.com/shangrila/city/penang/",
+  "priceUrl": "https://www.shangri-la.com/shangrila/city/penang/",
+  "address": "Batu Ferringhi Beach, 11100 Penang",
+  "price": {
+    "amountMYR": 336,
+    "unit": "average room night",
+    "basis": "Golden Sands average per night on operator city page",
+    "level": 2
+  },
+  "locationNote": "OSM coordinates; no independent geocoding was performed.",
+  "openStatusNote": "Venue-operated page or linked booking engine was reachable on the check date; no site visit was performed."
+}

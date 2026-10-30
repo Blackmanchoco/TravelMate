@@ -1,0 +1,6 @@
+.admin-print h2 { margin: 7mm 0 3mm; font-size: 15pt; break-after: avoid; }
+.admin-print table { width: 100%; border-collapse: collapse; margin: 3mm 0; }
+.admin-print th, .admin-print td { padding: 2mm; border-bottom: 1px solid #bbb; text-align: left; }
+.admin-print th { font-weight: 700; }
+.admin-print tr { break-inside: avoid; }
+.admin-print thead { display: table-header-group; }

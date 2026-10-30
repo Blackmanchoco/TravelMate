@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Figtree Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400 600;
+  src: url("@fontsource-variable/figtree/files/figtree-latin-wght-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Bricolage Grotesque Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600 700;
+  src: url("@fontsource-variable/bricolage-grotesque/files/bricolage-grotesque-latin-wght-normal.woff2") format("woff2");
+}
+
+@theme {
+  --color-bg: #f3f7f6;
+  --color-surface: #ffffff;
+  --color-fg: #10302f;
+  --color-muted: #4f6b69;
+  --color-line: #d3e0de;
+  --color-accent: #0d6b68;
+  --color-accent-fg: #ffffff;
+  --color-tint: #dff0ee;
+  --color-pop: #e8a317;
+  --color-pop-fg: #2a1d00;
+  --radius-panel: 14px;
+  --radius-control: 11px;
+  --font-sans: "Figtree Variable", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-heading: "Bricolage Grotesque Variable", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --shadow-panel: 0 8px 28px color-mix(in srgb, var(--color-fg) 8%, transparent);
+}
+
+:root {
+  font-family: var(--font-sans);
+  color: var(--color-fg);
+  background: var(--color-bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: light;
+}
+
+@layer base {
+  * { box-sizing: border-box; }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+  input, textarea, select {
+    accent-color: var(--color-accent);
+    border-color: var(--color-line);
+    border-radius: var(--radius-control);
+  }
+  button { border-radius: var(--radius-control); }
+}
+
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; min-height: 100vh; background: var(--color-bg); }
+::selection { background: var(--color-tint); color: var(--color-fg); }
+button, a { -webkit-tap-highlight-color: transparent; }
+button, input, textarea, select { font-family: inherit; }
+button:not(.identity-chip), a[class*="px-"][class*="py-"] { border-radius: var(--radius-control); }
+input:not([type="checkbox"]):not([type="radio"]), textarea, select { border-radius: var(--radius-control); }
+a { text-decoration: none; }
+::placeholder { color: var(--color-muted); opacity: 1; }
+h1, h2, h3, h4, h5, h6 { letter-spacing: -0.02em; }
+:focus-visible {
+  outline: 3px solid var(--color-pop);
+  outline-offset: 3px;
+  /* A dark edge keeps the amber focus indicator visible on pale surfaces. */
+  box-shadow: 0 0 0 1px var(--color-fg);
+}
+.leaflet-container { font-family: inherit; }
+.itinerary-map-marker { background: transparent; border: 0; }
+.itinerary-map-marker__number {
+  display: flex; width: 36px; height: 36px; align-items: center; justify-content: center;
+  border: 3px solid var(--color-surface); border-radius: 9999px;
+  background: var(--color-pop); box-shadow: var(--shadow-panel); color: var(--color-pop-fg);
+  font-size: 13px; font-weight: 600; line-height: 1;
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

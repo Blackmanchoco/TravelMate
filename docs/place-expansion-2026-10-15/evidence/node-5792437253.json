@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-16",
+  "status": "provisionally shortlisted; desk-checked from web sources, not site visits",
+  "osm": {
+    "type": "node",
+    "id": 5792437253,
+    "latitude": 3.1559992,
+    "longitude": 101.7116181
+  },
+  "name": "Mandarin Oriental Kuala Lumpur",
+  "osmName": "Mandarin Oriental Kuala Lumpur",
+  "category": "Accommodation",
+  "destination": "Kuala Lumpur",
+  "nearestAnchor": "KLCC Park",
+  "distanceMeters": 161.43005898757033,
+  "identityUrl": "https://www.mandarinoriental.com/en/kuala-lumpur/petronas-towers",
+  "priceUrl": "https://www.mandarinoriental.com/en/kuala-lumpur/petronas-towers",
+  "address": "Kuala Lumpur City Centre, 50088 Kuala Lumpur",
+  "price": {
+    "amountMYR": 1886.8,
+    "unit": "average room night",
+    "basis": "Deluxe Twin Towers View Room; average per night on venue page",
+    "level": 4
+  },
+  "locationNote": "OSM coordinates; no independent geocoding was performed.",
+  "openStatusNote": "Venue-operated page or linked booking engine was reachable on the check date; no site visit was performed."
+}

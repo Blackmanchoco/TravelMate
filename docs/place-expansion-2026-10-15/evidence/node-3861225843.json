@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-16",
+  "status": "provisionally shortlisted; desk-checked from web sources, not site visits",
+  "osm": {
+    "type": "node",
+    "id": 3861225843,
+    "latitude": 2.2022889,
+    "longitude": 102.2498024
+  },
+  "name": "Swiss-Garden Hotel & Residences Malacca",
+  "osmName": "Swiss-Garden Hotel & Residences Malacca",
+  "category": "Accommodation",
+  "destination": "Melaka",
+  "nearestAnchor": "Jonker Street",
+  "distanceMeters": 932.1682351998246,
+  "identityUrl": "https://www.swissgarden.com/hotel-melaka/rooms/",
+  "priceUrl": "https://book.swissgarden.com/swiss-garden-melaka/select_room?checkin_date=2026-10-16&nights=1&num_adults=2&num_children=0",
+  "address": "The Shore at Melaka River, Jalan Persisiran Bunga Raya, 75300 Melaka",
+  "price": {
+    "amountMYR": 245,
+    "unit": "room night",
+    "basis": "Deluxe Twin Room best flexible rate, 2 adults, 16-17 Oct 2026, tax excluded, on hotel-linked booking engine",
+    "level": 2
+  },
+  "locationNote": "OSM coordinates; no independent geocoding was performed.",
+  "openStatusNote": "Venue-operated page or linked booking engine was reachable on the check date; no site visit was performed."
+}

@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-16",
+  "status": "provisionally shortlisted; desk-checked from web sources, not site visits",
+  "osm": {
+    "type": "node",
+    "id": 9843832039,
+    "latitude": 5.4119979,
+    "longitude": 100.3275472
+  },
+  "name": "Restaurant Au Jardin",
+  "osmName": "Restaurant Au Jardin",
+  "category": "Restaurant",
+  "destination": "Penang",
+  "nearestAnchor": "George Town",
+  "distanceMeters": 296.835931049201,
+  "identityUrl": "https://www.restaurant-aujardin.com/",
+  "priceUrl": "https://www.restaurant-aujardin.com/_files/ugd/3b5fc6_2c10a6410693464c9fd1f1552348ea52.pdf",
+  "address": "The Warehouse at Hin Bus Depot, 125 Jalan Timah, 10150 George Town, Penang",
+  "price": {
+    "amountMYR": 488,
+    "unit": "degustation per person",
+    "basis": "Green Menu Degustation RM488++ in venue PDF dated December 2025; current menu page still lists Green Menu but does not display a current price",
+    "level": 4
+  },
+  "locationNote": "OSM coordinates; no independent geocoding was performed.",
+  "openStatusNote": "Venue-operated page or linked booking engine was reachable on the check date; no site visit was performed."
+}

@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-16",
+  "status": "provisionally shortlisted; desk-checked from web sources, not site visits",
+  "osm": {
+    "type": "way",
+    "id": 285911176,
+    "latitude": 2.1979456,
+    "longitude": 102.2464626
+  },
+  "name": "Liu Men Melaka",
+  "osmName": "Liu Men Melaka",
+  "category": "Accommodation",
+  "destination": "Melaka",
+  "nearestAnchor": "Jonker Street",
+  "distanceMeters": 384.0407535306109,
+  "identityUrl": "https://liumenhotel.com/",
+  "priceUrl": "https://book-directonline.com/properties/liumenmelakadirect",
+  "address": "48-56 Jalan Tokong, 75200 Melaka",
+  "price": {
+    "amountMYR": 504,
+    "unit": "room night",
+    "basis": "Jebat Room standard rate, 2 adults, 16-17 Oct 2026, including breakfast, on hotel-linked booking engine",
+    "level": 3
+  },
+  "locationNote": "OSM coordinates; no independent geocoding was performed.",
+  "openStatusNote": "Venue-operated page or linked booking engine was reachable on the check date; no site visit was performed."
+}

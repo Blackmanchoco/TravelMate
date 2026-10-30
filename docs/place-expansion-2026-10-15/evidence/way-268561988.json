@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-16",
+  "status": "provisionally shortlisted; desk-checked from web sources, not site visits",
+  "osm": {
+    "type": "way",
+    "id": 268561988,
+    "latitude": 5.4192483,
+    "longitude": 100.3350151
+  },
+  "name": "Yeng Keng Hotel",
+  "osmName": "Yeng Keng Hotel",
+  "category": "Accommodation",
+  "destination": "Penang",
+  "nearestAnchor": "Little India",
+  "distanceMeters": 182.55470805777293,
+  "identityUrl": "https://www.yengkenghotel.com/promo/",
+  "priceUrl": "https://www.yengkenghotel.com/promo/",
+  "address": "362 Chulia Street, George Town, 10200 Penang",
+  "price": {
+    "amountMYR": 439.56,
+    "unit": "room night",
+    "basis": "Simply Yeng Keng offer from MYR439.56 per night; stay period through 31 Dec 2026",
+    "level": 3
+  },
+  "locationNote": "OSM coordinates; no independent geocoding was performed.",
+  "openStatusNote": "Venue-operated page or linked booking engine was reachable on the check date; no site visit was performed."
+}

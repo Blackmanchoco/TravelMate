@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-16",
+  "status": "provisionally shortlisted; desk-checked from web sources, not site visits",
+  "osm": {
+    "type": "node",
+    "id": 4625396045,
+    "latitude": 3.1586497,
+    "longitude": 101.7080652
+  },
+  "name": "Maya Hotel",
+  "osmName": "Maya Hotel",
+  "category": "Accommodation",
+  "destination": "Kuala Lumpur",
+  "nearestAnchor": "Petronas Twin Towers",
+  "distanceMeters": 368.69543845218845,
+  "identityUrl": "https://hotelmaya.com.my/stay",
+  "priceUrl": "https://hotelmaya.com.my/promotions/best-available-rate",
+  "address": "138 Jalan Ampang, 50450 Kuala Lumpur",
+  "price": {
+    "amountMYR": 380,
+    "unit": "room night",
+    "basis": "Best Available Rate from RM380+ per night on hotel site",
+    "level": 3
+  },
+  "locationNote": "OSM coordinates; no independent geocoding was performed.",
+  "openStatusNote": "Venue-operated page or linked booking engine was reachable on the check date; no site visit was performed."
+}

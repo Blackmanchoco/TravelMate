@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-16",
+  "status": "provisionally shortlisted; desk-checked from web sources, not site visits",
+  "osm": {
+    "type": "node",
+    "id": 4107256820,
+    "latitude": 5.4183371,
+    "longitude": 100.336081
+  },
+  "name": "Chulia Court",
+  "osmName": "Chulia Court",
+  "category": "Restaurant",
+  "destination": "Penang",
+  "nearestAnchor": "Little India",
+  "distanceMeters": 287.20372099324373,
+  "identityUrl": "https://www.chuliacourt.com.my/",
+  "priceUrl": "https://www.chuliacourt.com.my/blog/chulia-court-live-music-dinner-night-out-georgetown-penang",
+  "address": "355, 357 and 359 Lebuh Chulia, 10200 George Town, Penang",
+  "price": {
+    "amountMYR": 35,
+    "unit": "main dish",
+    "basis": "Butter Chicken RM35 on venue article; bread is separately priced",
+    "level": 2
+  },
+  "locationNote": "OSM coordinates; no independent geocoding was performed.",
+  "openStatusNote": "Venue-operated page or linked booking engine was reachable on the check date; no site visit was performed."
+}

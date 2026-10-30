@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-16",
+  "status": "provisionally shortlisted; desk-checked from web sources, not site visits",
+  "osm": {
+    "type": "node",
+    "id": 13099974430,
+    "latitude": 3.1536517,
+    "longitude": 101.7122675
+  },
+  "name": "Thirty8",
+  "osmName": "Thirty8",
+  "category": "Restaurant",
+  "destination": "Kuala Lumpur",
+  "nearestAnchor": "KLCC Park",
+  "distanceMeters": 417.84933820090333,
+  "identityUrl": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur/dining/thirty8",
+  "priceUrl": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur/dining/thirty8",
+  "address": "Level 38, Grand Hyatt Kuala Lumpur, 12 Jalan Pinang, 50450 Kuala Lumpur",
+  "price": {
+    "amountMYR": 138,
+    "unit": "afternoon tea per person",
+    "basis": "Weekday afternoon tea MYR138 nett per person on Hyatt venue page",
+    "level": 4
+  },
+  "locationNote": "OSM coordinates; no independent geocoding was performed.",
+  "openStatusNote": "Venue-operated page or linked booking engine was reachable on the check date; no site visit was performed."
+}
