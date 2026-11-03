@@ -1,0 +1,22 @@
+# Pre-push hygiene decisions — 20 October 2026
+
+This branch changes only `.gitignore` and this document. It does not rewrite history, untrack files, change runtime credentials, or claim that a pre-push scan is finished. Findings below trace the earlier `PRE_PUSH_SCAN.md` at `C:\FYP\travelmate-master\docs\freeze-plan\final-integration-20261019\PRE_PUSH_SCAN.md`. The in-use `C:\FYP\travelmate\backend\.env` was read only for in-memory comparisons; no value is printed here.
+
+| Finding | File and line | In `origin/master`? | Classification and in-use comparison | Decision |
+|---|---|---|---|---|
+| Venue contact in candidate data | `docs/place-expansion-2026-10-15/ranked-candidates.json:14259,14263`, introduced by `a310270` | No | The same generic role mailbox appears twice as the `website` tag on OSM node `4340560189`, **906 riverside hotel malacca**. Its local part is a service role, not a personal name. It is not a credential; comparison with `.env` is not applicable. The value is malformed as a website URL (`http://` before an email address), but this branch cannot edit the hash-recorded candidate file. | Keep the public venue contact in historical candidate evidence; do not rewrite history or edit the recorded file. Do not treat the malformed value as a valid website. |
+| Localhost DB fallback | `backend/src/config/env.ts:8` | Yes | Literal development fallback with username and password. Its username/password pair is **not equal** to the in-use `.env` pair; host and database name do match. | Keep runtime code unchanged under this queue's scope. Document the localhost-only fallback as a limitation; do not infer that the fallback password is safe outside a trusted local environment. |
+| AI evaluation password example | `docs/ai-evaluation-runs/README.md:19` | Yes | Literal `<password>` placeholder, **not equal** to any in-use `.env` value. | Keep as documentation placeholder. |
+| RBAC test-account password | `docs/api-test-record-2026-09-11/README.md:586` | Yes | A literal documented test password, **not equal** to any in-use `.env` value. Its current validity was not tested. | Keep historical test evidence unchanged; treat it as a demo/test credential and rotate it if the account is used outside this trusted local setup. |
+
+The email is a venue-level contact recorded in OSM-derived candidate data, not a personal contact in this record. A [public hotel listing](https://www.trip.com/hotels/malacca-hotel-detail-1465493/906-riverside-hotel-malacca/) corroborates that the venue publishes an email contact, though the current address was not independently confirmed by an official hotel site. Since this is historical candidate evidence and a generic role mailbox, a HEAD-only redaction would remove context while leaving the old blob in local history. If later evidence shows it is personal, a HEAD-only redaction would change `ranked-candidates.json` and its Git blob SHA, as well as any derived hash manifest that records that file; it would **not** remove the earlier commit's copy. No such edit is made here.
+
+## Files retained and ignore scope
+
+- The v1 model `backend/ai/model/recommendation_model.pkl` remains tracked because `backend/ai/recommendation/recommender.py:23,451` selects and loads it at runtime. The v2 model remains tracked for the existing evaluation/training path (`backend/ai/training/evaluate_model_v2.py:12-13,117-118`); v2 is not activated. Both were already in `origin/master`.
+- All 46 tracked JSONL evidence files remain tracked. They support the recorded evaluation and audit history; `.gitignore` does not untrack them.
+- The new rules reject newly created `.dump`, `.pgdump`, `.bak`, compressed SQL backups, root `backup.sql`, and generated root/backend backup folders. `/scratch/` and `/docs/scratch/` ignore generated output but leave `scripts/scratch/` source and the already tracked `docs/freeze-plan/*_scratch_*` evidence visible. No tracked file was removed.
+
+## Known limitations
+
+The application loads a trusted-local pickle model through `joblib.load`; an untrusted replacement model could execute code. The baseline contains demo/test credentials and a localhost database fallback. Those credentials should not be reused for a public service. The earlier scan's repository visibility and screenshot-pixel limits remain open. This hygiene branch does not clear the historical dependency advisories, rate-limit gaps, or other security limitations and does not turn the old **FIX FIRST** verdict into **SAFE TO PUSH**. Phase 5 must reassess the final push range after integration.

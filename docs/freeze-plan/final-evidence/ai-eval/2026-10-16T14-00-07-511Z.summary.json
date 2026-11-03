@@ -1,0 +1,381 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-10-16T14:00:07.511Z",
+  "completedAt": "2026-10-16T14:04:47.810Z",
+  "gitCommit": "f3e711152b95e696553b276251af13c4ba04bf63",
+  "model": "qwen3:8b",
+  "ollamaVersion": "0.33.2",
+  "scriptSha256": "0cd7fe31811f0461a7f2bf168b2042162fd4cf64dbba928caaa630bcb976a769",
+  "publicPlaceCount": 56,
+  "penangPlaceCount": 19,
+  "penangTop10Digest": "6d185001a935c31c7f86ca99dfdd9c350a97c8a97176af1249c3630d584953e0",
+  "cases": [
+    {
+      "id": "context_recall",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "polluted_history_unesco",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "negative_hallucination_unesco",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "george_town_attribute_search",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "price_scope_followup",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "price_scope_english_named",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "no_preference_recommendation",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "hotel_typo_penang",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "hotel_chinese_penang",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "restaurant_penang_zero",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "restaurant_kl_jalan_alor",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "personalized_category_unavailable",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "schedule_request_english",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "schedule_request_chinese",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "restarant_penang_zero",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "restarant_kl_jalan_alor",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "restaurent_penang_zero",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "restaurent_kl_jalan_alor",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "resturant_penang_zero",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "resturant_kl_jalan_alor",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "restraunt_penang_zero",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "restraunt_kl_jalan_alor",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "food_question_penang_zero",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "food_question_kl_jalan_alor",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "where_to_eat_penang_zero",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "where_to_eat_kl_jalan_alor",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "chinese_restaurant_penang_zero",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "chinese_restaurant_kl_jalan_alor",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "chinese_food_penang_zero",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "chinese_food_kl_jalan_alor",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "hotle_penang_zero",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "hotell_penang_zero",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "acomodation_penang_zero",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "accomodation_penang_zero",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "penang_attractions_post_import",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "kl_things_to_do_post_import",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "melaka_places_to_visit_post_import",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "penang_attractions_chinese_post_import",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "kl_things_to_do_chinese_post_import",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "melaka_places_to_visit_chinese_post_import",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "penang_attractions_restaurant_name_negative",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "penang_attractions_hotel_name_negative",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "personalized_kuala_lumpur_post_import",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "personalized_penang_post_import",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "personalized_melaka_post_import",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "personalized_restaurant_category_restricted_post_import",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "kl_hotel_imported",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "melaka_hotel_imported",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "melaka_restaurant_honest_zero",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "kuching_hotel_honest_zero",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "kl_restaurant_chinese_imported",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "penang_hotel_chinese_imported",
+      "kind": "conversation",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "description_fallback_unesco",
+      "kind": "tool",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "george_town_name_match",
+      "kind": "tool",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "exact_name_priority_limit_one",
+      "kind": "tool",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "test_fixture_excluded",
+      "kind": "tool",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "test_category_argument_rejected",
+      "kind": "tool",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "invalid_limit_rejected",
+      "kind": "tool",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "restaurant_name_intersection",
+      "kind": "tool",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "restaurant_category_leak_blocked",
+      "kind": "tool",
+      "passed": 3,
+      "total": 3
+    },
+    {
+      "id": "chinese_hotel_category_empty",
+      "kind": "tool",
+      "passed": 3,
+      "total": 3
+    }
+  ],
+  "rawFile": "C:\\FYP\\travelmate-freeze-verification\\docs\\freeze-plan\\final-evidence\\ai-eval\\2026-10-16T14-00-07-511Z.jsonl"
+}

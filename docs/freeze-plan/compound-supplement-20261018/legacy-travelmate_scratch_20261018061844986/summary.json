@@ -1,0 +1,1273 @@
+{
+  "startedAt": "2026-10-18T06:18:44.987Z",
+  "database": "travelmate_scratch_20261018061844986",
+  "created": true,
+  "dropped": true,
+  "plannedCases": 65,
+  "plannedRows": 195,
+  "results": [
+    {
+      "caseId": "compound_attractions_english",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "compound_attractions_english",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "compound_attractions_english",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "compound_attractions_chinese",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "compound_attractions_chinese",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "compound_attractions_chinese",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "compound_places_english",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "compound_places_english",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "compound_places_english",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "compound_attractions_mixed",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "compound_attractions_mixed",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "compound_attractions_mixed",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "context_recall",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "model-authored"
+    },
+    {
+      "caseId": "context_recall",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "model-authored"
+    },
+    {
+      "caseId": "context_recall",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "model-authored"
+    },
+    {
+      "caseId": "polluted_history_unesco",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "model-authored"
+    },
+    {
+      "caseId": "polluted_history_unesco",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "model-authored"
+    },
+    {
+      "caseId": "polluted_history_unesco",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "model-authored"
+    },
+    {
+      "caseId": "negative_hallucination_unesco",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "model-authored"
+    },
+    {
+      "caseId": "negative_hallucination_unesco",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "model-authored"
+    },
+    {
+      "caseId": "negative_hallucination_unesco",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "model-authored"
+    },
+    {
+      "caseId": "george_town_attribute_search",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "model-authored"
+    },
+    {
+      "caseId": "george_town_attribute_search",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "model-authored"
+    },
+    {
+      "caseId": "george_town_attribute_search",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "model-authored"
+    },
+    {
+      "caseId": "price_scope_followup",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "price_scope_followup",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "price_scope_followup",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "price_scope_english_named",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "price_scope_english_named",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "price_scope_english_named",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "no_preference_recommendation",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "no_preference_recommendation",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "no_preference_recommendation",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotel_typo_penang",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotel_typo_penang",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotel_typo_penang",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotel_chinese_penang",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotel_chinese_penang",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotel_chinese_penang",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurant_penang_zero",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurant_penang_zero",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurant_penang_zero",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurant_kl_jalan_alor",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurant_kl_jalan_alor",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurant_kl_jalan_alor",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "personalized_category_unavailable",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "personalized_category_unavailable",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "personalized_category_unavailable",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "schedule_request_english",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "schedule_request_english",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "schedule_request_english",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "schedule_request_chinese",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "schedule_request_chinese",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "schedule_request_chinese",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restarant_penang_zero",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restarant_penang_zero",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restarant_penang_zero",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restarant_kl_jalan_alor",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restarant_kl_jalan_alor",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restarant_kl_jalan_alor",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurent_penang_zero",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurent_penang_zero",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurent_penang_zero",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurent_kl_jalan_alor",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurent_kl_jalan_alor",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurent_kl_jalan_alor",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "resturant_penang_zero",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "resturant_penang_zero",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "resturant_penang_zero",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "resturant_kl_jalan_alor",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "resturant_kl_jalan_alor",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "resturant_kl_jalan_alor",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restraunt_penang_zero",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restraunt_penang_zero",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restraunt_penang_zero",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restraunt_kl_jalan_alor",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restraunt_kl_jalan_alor",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restraunt_kl_jalan_alor",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "food_question_penang_zero",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "food_question_penang_zero",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "food_question_penang_zero",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "food_question_kl_jalan_alor",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "food_question_kl_jalan_alor",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "food_question_kl_jalan_alor",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "where_to_eat_penang_zero",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "where_to_eat_penang_zero",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "where_to_eat_penang_zero",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "where_to_eat_kl_jalan_alor",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "where_to_eat_kl_jalan_alor",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "where_to_eat_kl_jalan_alor",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "chinese_restaurant_penang_zero",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "chinese_restaurant_penang_zero",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "chinese_restaurant_penang_zero",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "chinese_restaurant_kl_jalan_alor",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "chinese_restaurant_kl_jalan_alor",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "chinese_restaurant_kl_jalan_alor",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "chinese_food_penang_zero",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "chinese_food_penang_zero",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "chinese_food_penang_zero",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "chinese_food_kl_jalan_alor",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "chinese_food_kl_jalan_alor",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "chinese_food_kl_jalan_alor",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotle_penang_zero",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotle_penang_zero",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotle_penang_zero",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotell_penang_zero",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotell_penang_zero",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotell_penang_zero",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "acomodation_penang_zero",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "acomodation_penang_zero",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "acomodation_penang_zero",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "accomodation_penang_zero",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "accomodation_penang_zero",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "accomodation_penang_zero",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "penang_attractions_post_import",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "penang_attractions_post_import",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "penang_attractions_post_import",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "kl_things_to_do_post_import",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "kl_things_to_do_post_import",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "kl_things_to_do_post_import",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "melaka_places_to_visit_post_import",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "melaka_places_to_visit_post_import",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "melaka_places_to_visit_post_import",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "penang_attractions_chinese_post_import",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "penang_attractions_chinese_post_import",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "penang_attractions_chinese_post_import",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "kl_things_to_do_chinese_post_import",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "kl_things_to_do_chinese_post_import",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "kl_things_to_do_chinese_post_import",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "melaka_places_to_visit_chinese_post_import",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "melaka_places_to_visit_chinese_post_import",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "melaka_places_to_visit_chinese_post_import",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "penang_attractions_restaurant_name_negative",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "penang_attractions_restaurant_name_negative",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "penang_attractions_restaurant_name_negative",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "penang_attractions_hotel_name_negative",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "penang_attractions_hotel_name_negative",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "penang_attractions_hotel_name_negative",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "personalized_kuala_lumpur_post_import",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "model-authored"
+    },
+    {
+      "caseId": "personalized_kuala_lumpur_post_import",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "model-authored"
+    },
+    {
+      "caseId": "personalized_kuala_lumpur_post_import",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "model-authored"
+    },
+    {
+      "caseId": "personalized_penang_post_import",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "model-authored"
+    },
+    {
+      "caseId": "personalized_penang_post_import",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "model-authored"
+    },
+    {
+      "caseId": "personalized_penang_post_import",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "model-authored"
+    },
+    {
+      "caseId": "personalized_melaka_post_import",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "personalized_melaka_post_import",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "personalized_melaka_post_import",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "personalized_restaurant_category_restricted_post_import",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "personalized_restaurant_category_restricted_post_import",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "personalized_restaurant_category_restricted_post_import",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "kl_hotel_imported",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "kl_hotel_imported",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "kl_hotel_imported",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "melaka_hotel_imported",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "melaka_hotel_imported",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "melaka_hotel_imported",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "melaka_restaurant_honest_zero",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "melaka_restaurant_honest_zero",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "melaka_restaurant_honest_zero",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "kuching_hotel_honest_zero",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "kuching_hotel_honest_zero",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "kuching_hotel_honest_zero",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "kl_restaurant_chinese_imported",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "kl_restaurant_chinese_imported",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "kl_restaurant_chinese_imported",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "penang_hotel_chinese_imported",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "penang_hotel_chinese_imported",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "penang_hotel_chinese_imported",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "description_fallback_unesco",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "description_fallback_unesco",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "description_fallback_unesco",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "george_town_name_match",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "george_town_name_match",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "george_town_name_match",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "exact_name_priority_limit_one",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "exact_name_priority_limit_one",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "exact_name_priority_limit_one",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "test_fixture_excluded",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "test_fixture_excluded",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "test_fixture_excluded",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "test_category_argument_rejected",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "test_category_argument_rejected",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "test_category_argument_rejected",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "invalid_limit_rejected",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "invalid_limit_rejected",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "invalid_limit_rejected",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "restaurant_name_intersection",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "restaurant_name_intersection",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "restaurant_name_intersection",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "restaurant_category_leak_blocked",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "restaurant_category_leak_blocked",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "restaurant_category_leak_blocked",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "chinese_hotel_category_empty",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "chinese_hotel_category_empty",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    },
+    {
+      "caseId": "chinese_hotel_category_empty",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "direct tool"
+    }
+  ],
+  "checks": [
+    {
+      "name": "scratch-v6-restore",
+      "exitCode": 0
+    },
+    {
+      "name": "backend-build",
+      "exitCode": 0
+    },
+    {
+      "name": "ollama-warm-up",
+      "exitCode": 0
+    },
+    {
+      "name": "python-warm-up",
+      "exitCode": 0,
+      "durationMs": 1991
+    }
+  ],
+  "stop": null,
+  "environmentGuard": {
+    "connectionQuery": "Only schema query option accepted; connection host/user/database overrides rejected before every connection",
+    "dotenv": "default non-overriding; DOTENV_CONFIG_PATH points to nonexistent file",
+    "application": "DATABASE_URL replaced in process memory before any import or child spawn; each child explicitly receives it",
+    "pool": "pg.Pool.connect validates owned scratch name and configured target before every application pool connection",
+    "maintenance": "postgres maintenance connection only: pg_database names and exact owned CREATE/DROP; no main/demo connection",
+    "childOutput": "withheld entirely; only named exit statuses recorded"
+  },
+  "originalRawHashBefore": "471913F7ECAC18252B336CD8249AA76E7708B72F9DC43F4E3CC5B7AE6B37F97D",
+  "phase": "legacy-create-evidence-directory",
+  "databaseNamesBefore": [
+    "postgres",
+    "template0",
+    "template1",
+    "travelmate",
+    "travelmate_backup_verify_20261005",
+    "travelmate_c4_restore_20261004",
+    "travelmate_c4_restore_20261005",
+    "travelmate_demo_20261006"
+  ],
+  "baseline": {
+    "database": "travelmate_scratch_20261018061844986",
+    "discoverablePlaces": 56
+  },
+  "port": 43030,
+  "regressionSourceHashBefore": "39D88AED44DE393516E68436F2A5F511BCBCA7E11D9F891C68544F81070118D4",
+  "regressionRawHash": "65E4108D86038071C3749B308BCFCDC09A98FDDD85A45752B31E1FE532F646E1",
+  "regressionRawPath": "C:/FYP/travelmate-explore-alias/.local-data/regression-travelmate_scratch_20261018061844986/2026-10-18T06-18-51-874Z.jsonl",
+  "regressionSourceHashAfter": "39D88AED44DE393516E68436F2A5F511BCBCA7E11D9F891C68544F81070118D4",
+  "original183": {
+    "completed": 183,
+    "passed": 183,
+    "failed": 0,
+    "origins": {
+      "server-rule": 138,
+      "model-authored": 18,
+      "direct tool": 27
+    }
+  },
+  "earlierCompound12": {
+    "completed": 12,
+    "passed": 12,
+    "failed": 0,
+    "origins": {
+      "server-rule": 12,
+      "model-authored": 0,
+      "direct tool": 0
+    }
+  },
+  "databaseNamesAfter": [
+    "postgres",
+    "template0",
+    "template1",
+    "travelmate",
+    "travelmate_backup_verify_20261005",
+    "travelmate_c4_restore_20261004",
+    "travelmate_c4_restore_20261005",
+    "travelmate_demo_20261006"
+  ],
+  "originalRawHashAfter": "471913F7ECAC18252B336CD8249AA76E7708B72F9DC43F4E3CC5B7AE6B37F97D",
+  "originalRawUnchanged": true,
+  "finishedAt": "2026-10-18T06:23:28.804Z",
+  "completed": 195,
+  "passed": 195,
+  "failed": 0,
+  "observations": 0,
+  "assertions": 195,
+  "notRun": 0,
+  "origins": {
+    "server-rule": 150,
+    "model-authored": 18,
+    "direct tool": 27
+  }
+}

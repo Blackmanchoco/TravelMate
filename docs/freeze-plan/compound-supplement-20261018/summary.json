@@ -1,0 +1,277 @@
+{
+  "startedAt": "2026-10-17T18:19:03.341Z",
+  "database": "travelmate_scratch_20261017181903340",
+  "created": true,
+  "dropped": true,
+  "plannedCases": 15,
+  "plannedRows": 45,
+  "results": [
+    {
+      "caseId": "hotel_english",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotel_english",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotel_english",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotel_chinese",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotel_chinese",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotel_chinese",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotel_typo",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotel_typo",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotel_typo",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurant_english",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurant_english",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurant_english",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurant_chinese",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurant_chinese",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurant_chinese",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurant_typo",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurant_typo",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurant_typo",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotel_control_english",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotel_control_english",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotel_control_english",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurant_control_english",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurant_control_english",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurant_control_english",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotel_control_chinese",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotel_control_chinese",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotel_control_chinese",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurant_control_chinese",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurant_control_chinese",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "restaurant_control_chinese",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "recommender_unavailable",
+      "iteration": 1,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "recommender_unavailable",
+      "iteration": 2,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "recommender_unavailable",
+      "iteration": 3,
+      "pass": true,
+      "responseOrigin": "server-rule"
+    },
+    {
+      "caseId": "hotel_bare_n_days",
+      "iteration": 1,
+      "pass": false,
+      "responseOrigin": "server-rule"
+    }
+  ],
+  "checks": [
+    {
+      "name": "scratch-v6-restore",
+      "exitCode": 0
+    },
+    {
+      "name": "backend-build",
+      "exitCode": 0
+    },
+    {
+      "name": "ollama-warm-up",
+      "exitCode": 0
+    }
+  ],
+  "stop": "SETUP_OR_RUNTIME_ERROR_WITHHELD",
+  "environmentGuard": {
+    "dotenv": "default non-overriding; DOTENV_CONFIG_PATH points to nonexistent file",
+    "application": "DATABASE_URL replaced in process memory before any import or child spawn; each child explicitly receives it",
+    "pool": "pg.Pool.connect validates owned scratch name and configured target before every application pool connection",
+    "maintenance": "postgres maintenance connection only: pg_database names and exact owned CREATE/DROP; no main/demo connection",
+    "childOutput": "withheld entirely; only named exit statuses recorded"
+  },
+  "originalRawHashBefore": "471913F7ECAC18252B336CD8249AA76E7708B72F9DC43F4E3CC5B7AE6B37F97D",
+  "phase": "maintenance-connect",
+  "databaseNamesBefore": [
+    "postgres",
+    "template0",
+    "template1",
+    "travelmate",
+    "travelmate_backup_verify_20261005",
+    "travelmate_c4_restore_20261004",
+    "travelmate_c4_restore_20261005",
+    "travelmate_demo_20261006"
+  ],
+  "baseline": {
+    "database": "travelmate_scratch_20261017181903340",
+    "discoverablePlaces": 56
+  },
+  "port": 59921,
+  "caseFileHash": "56362D2383349D9448F7229466F66294E31875F2DB094E06C8D43175D37B723D",
+  "sourceHash": "8FE5D5F10DAD21C06B797A5C6B4FAD98CF879252A592F14BAB62A21D33E9D015",
+  "databaseNamesAfter": [
+    "postgres",
+    "template0",
+    "template1",
+    "travelmate",
+    "travelmate_backup_verify_20261005",
+    "travelmate_c4_restore_20261004",
+    "travelmate_c4_restore_20261005",
+    "travelmate_demo_20261006"
+  ],
+  "originalRawHashAfter": "471913F7ECAC18252B336CD8249AA76E7708B72F9DC43F4E3CC5B7AE6B37F97D",
+  "originalRawUnchanged": true,
+  "finishedAt": "2026-10-17T18:20:16.966Z",
+  "completed": 34,
+  "passed": 33,
+  "failed": 1,
+  "notRun": 11,
+  "origins": {
+    "server-rule": 34,
+    "model-authored": 0,
+    "direct tool": 0
+  }
+}

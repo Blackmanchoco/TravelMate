@@ -1,0 +1,81 @@
+{
+  "generatedLabel": "Generated 16/10/2026, 9:46:29 pm (Asia/Kuala_Lumpur)",
+  "generatedAt": "2026-10-16T13:46:29.709Z",
+  "totals": {
+    "discoverable": 56,
+    "archived": 0,
+    "test": 0
+  },
+  "byDestination": [
+    {
+      "name": "Kuala Lumpur",
+      "discoverable": 20,
+      "archived": 0
+    },
+    {
+      "name": "Penang",
+      "discoverable": 19,
+      "archived": 0
+    },
+    {
+      "name": "Melaka",
+      "discoverable": 14,
+      "archived": 0
+    },
+    {
+      "name": "Kota Kinabalu",
+      "discoverable": 1,
+      "archived": 0
+    },
+    {
+      "name": "Kuching",
+      "discoverable": 1,
+      "archived": 0
+    },
+    {
+      "name": "Klang",
+      "discoverable": 1,
+      "archived": 0
+    }
+  ],
+  "byCategory": [
+    {
+      "category": "Accommodation",
+      "count": 10
+    },
+    {
+      "category": "Attraction",
+      "count": 3
+    },
+    {
+      "category": "Culture",
+      "count": 14
+    },
+    {
+      "category": "Historical",
+      "count": 12
+    },
+    {
+      "category": "Nature",
+      "count": 6
+    },
+    {
+      "category": "Restaurant",
+      "count": 7
+    },
+    {
+      "category": "Shopping",
+      "count": 4
+    }
+  ],
+  "auditSummary": {
+    "total": 0,
+    "byAction": []
+  },
+  "pdfOptions": {
+    "format": "A4",
+    "printBackground": true,
+    "preferCSSPageSize": true,
+    "margins": "16mm"
+  }
+}

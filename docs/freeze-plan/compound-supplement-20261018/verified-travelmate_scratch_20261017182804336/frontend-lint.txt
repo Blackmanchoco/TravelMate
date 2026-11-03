@@ -1,0 +1,10 @@
+
+> [REDACTED]@0.0.0 lint
+> oxlint
+
+backend/src/modules/itineraries/itineraries.service.ts:37:70: warning eslint(no-unsafe-optional-chaining): Unsafe usage of optional chaining help: If this short-circuits with 'undefined' the evaluation will throw TypeError
+backend/scripts/warm-ai.mjs:51:23: warning eslint(no-unsafe-finally): Unsafe `finally` block. help: Control flow inside `try` or `catch` blocks will be overwritten by this statement.
+backend/ai/evaluation/run-compound-supplement-20261018.mjs:4:10: warning eslint(no-unused-vars): Identifier 'execFileSync' is imported but never used. help: Consider removing this import.
+src/context/SavedPlacesContext.tsx:221:17: warning react(only-export-components): Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components.
+src/context/ItineraryContext.tsx:377:17: warning react(only-export-components): Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components.
+

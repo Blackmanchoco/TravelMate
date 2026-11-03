@@ -1,0 +1,50 @@
+
+> [REDACTED]-backend@0.1.0 test
+> vitest run
+
+
+ RUN  v4.1.11 C:/FYP/[REDACTED]-compound-request/backend
+
+ \u276f test/isolated-db-guard.test.ts (2 tests | 1 failed) 67ms
+     \u00d7 rejects a main database name before trying an unreachable address 64ms
+
+ Test Files  1 failed | 26 passed (27)
+      Tests  1 failed | 210 passed (211)
+   Start at  02:27:37
+   Duration  1.64s (transform 4.78s, setup 0ms, import 6.57s, tests 922ms, environment 3ms)
+
+
+
+\u23af\u23af\u23af\u23af\u23af\u23af\u23af Failed Tests 1 \u23af\u23af\u23af\u23af\u23af\u23af\u23af
+
+ FAIL  test/isolated-db-guard.test.ts > isolated database guard > rejects a main database name before trying an unreachable address
+AssertionError: expected 'file:///C:/FYP/[REDACTED]-compound-re\u2026' to contain 'Database name is not allowlisted'
+
+- Expected
++ Received
+
+- Database name is not allowlisted
++ file:///C:/FYP/[REDACTED]-compound-request/backend/ai/evaluation/scratch-process-guard.mjs:8
++   if (name !== expected || name === '[REDACTED]' || name.startsWith('[REDACTED]_demo')) throw Error('SCRATCH_PROCESS_TARGET_REJECTED');
++                                                                                               ^
++ 
++ Error: SCRATCH_PROCESS_TARGET_REJECTED
++     at check (file:///C:/FYP/[REDACTED]-compound-request/backend/ai/evaluation/scratch-process-guard.mjs:8:95)
++     at file:///C:/FYP/[REDACTED]-compound-request/backend/ai/evaluation/scratch-process-guard.mjs:10:1
++     at ModuleJob.run (node:internal/modules/esm/module_job:430:25)
++     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:661:26)
++     at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:96:9)
++ 
++ Node.js v24.14.1
++
+
+ \u276f test/isolated-db-guard.test.ts:32:26
+     30|     });
+     31|     expect(child.status).not.toBe(0);
+     32|     expect(child.stderr).toContain("Database name is not allowlisted");
+       |                          ^
+     33|     expect(child.stderr).not.toContain("ECONNREFUSED");
+     34|     expect(child.stderr).not.toContain("postgresql:" + "//");
+
+\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af[1/1]\u23af
+

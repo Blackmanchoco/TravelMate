@@ -1,0 +1,36 @@
+{
+  "pageCount": 2,
+  "sizeBytes": 25862,
+  "pageSizes": [
+    {
+      "widthMm": 209.89,
+      "heightMm": 297.01
+    },
+    {
+      "widthMm": 209.89,
+      "heightMm": 297.01
+    }
+  ],
+  "checks": {
+    "generationTime": true,
+    "Discoverable places": true,
+    "Archived places": true,
+    "Test fixtures": true,
+    "destination:Kuala Lumpur": true,
+    "destination:Penang": true,
+    "destination:Melaka": true,
+    "destination:Kota Kinabalu": true,
+    "destination:Kuching": true,
+    "destination:Klang": true,
+    "category:Accommodation": true,
+    "category:Attraction": true,
+    "category:Culture": true,
+    "category:Historical": true,
+    "category:Nature": true,
+    "category:Restaurant": true,
+    "category:Shopping": true,
+    "auditSummary": true,
+    "noEmailsOrUserIds": true,
+    "A4": true
+  }
+}

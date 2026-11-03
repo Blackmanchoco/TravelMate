@@ -1,0 +1,30 @@
+
+> [REDACTED]@0.0.0 build
+> tsc -b && vite build
+
+vite v8.1.5 building client environment for production...
+[2Ktransforming...\u2713 2566 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                     0.56 kB \u2502 gzip:   0.33 kB
+dist/assets/figtree-latin-wght-normal-D_ZTVpCC.woff2               20.15 kB
+dist/assets/bricolage-grotesque-latin-wght-normal-DLoelf7F.woff2   41.34 kB
+dist/assets/PrintAdminReport-CfkbmPPq.css                           0.33 kB \u2502 gzip:   0.21 kB
+dist/assets/print-itinerary-BTg-MB0j.css                            3.18 kB \u2502 gzip:   1.08 kB
+dist/assets/index-CpajUBdD.css                                     65.21 kB \u2502 gzip:  15.52 kB
+dist/assets/PrintAdminReport-DltF1ALN.js                            3.47 kB \u2502 gzip:   1.05 kB
+dist/assets/InternalMap-95xwtuAN.js                                 4.39 kB \u2502 gzip:   1.93 kB
+dist/assets/PrintItinerary-C1gPTYc0.js                              6.06 kB \u2502 gzip:   2.09 kB
+dist/assets/jsx-runtime-CdArH33I.js                                 8.72 kB \u2502 gzip:   3.33 kB
+dist/assets/PlaceDetails-EBSngmpt.js                               13.78 kB \u2502 gzip:   4.43 kB
+dist/assets/TileLayer-Di39p68P.js                                 153.05 kB \u2502 gzip:  44.77 kB
+dist/assets/ChatMarkdown-CTP2PIzR.js                              155.68 kB \u2502 gzip:  46.33 kB
+dist/assets/index-DbTp3Zyk.js                                     557.86 kB \u2502 gzip: 158.44 kB
+
+\u2713 built in 574ms
+
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.

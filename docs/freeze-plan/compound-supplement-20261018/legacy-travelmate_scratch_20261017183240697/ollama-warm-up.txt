@@ -1,0 +1,16 @@
+
+> [REDACTED]-backend@0.1.0 warm-ai
+> tsx scripts/warm-ai.mjs
+
+{
+  "model": "qwen3:8b",
+  "load_duration_ms": 8,
+  "prompt_eval_duration_ms": 283,
+  "total_duration_ms": 1048,
+  "wall_time_ms": 1072
+}
+ollama ps:
+NAME        ID              SIZE      PROCESSOR    CONTEXT    UNTIL               
+qwen3:8b    500a1f067a9f    6.2 GB    100% GPU     8192       29 minutes from now    
+
+

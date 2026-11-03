@@ -1,0 +1,116 @@
+
+> [REDACTED]-backend@0.1.0 test
+> vitest run test/ai-category-safety.test.ts
+
+
+ RUN  v4.1.11 C:/FYP/[REDACTED]-compound-request/backend
+
+ \u276f test/ai-category-safety.test.ts (61 tests | 11 failed) 45ms
+     \u00d7 adds exactly one fixed limitation for trip-length compound Penang hotels, 3 days 20ms
+     \u00d7 adds exactly one fixed limitation for trip-length compound Penang restaurants for a 2-day trip 2ms
+     \u00d7 adds exactly one fixed limitation for trip-length compound Penang hotle for 3 dyas 1ms
+     \u00d7 adds exactly one fixed limitation for trip-length compound Penang restuarant for 3 dasy 1ms
+     \u00d7 adds exactly one fixed limitation for trip-length compound Penang hotel for 3 dya 1ms
+     \u00d7 adds exactly one fixed limitation for trip-length compound Penang hotel and plann a trip itinerary 1ms
+     \u00d7 adds exactly one fixed limitation for trip-length compound Penang restaurant and planing a trip 1ms
+     \u00d7 adds exactly one fixed limitation for trip-length compound Penang hotel for three days 1ms
+     \u00d7 adds exactly one fixed limitation for trip-length compound \u69df\u57ce\u9152\u5e97\uff0c\u4e09\u5929\u884c\u7a0b 1ms
+     \u00d7 adds exactly one fixed limitation for trip-length compound \u69df\u57ce\u9910\u5385\uff0c3\u65e5 1ms
+     \u00d7 adds exactly one fixed limitation for trip-length compound \u69df\u57ce\u9152\u5e97\uff0c\uff13\u5929 1ms
+
+ Test Files  1 failed (1)
+      Tests  11 failed | 50 passed (61)
+   Start at  02:25:09
+   Duration  1.03s (transform 218ms, setup 0ms, import 266ms, tests 45ms, environment 0ms)
+
+
+
+\u23af\u23af\u23af\u23af\u23af\u23af Failed Tests 11 \u23af\u23af\u23af\u23af\u23af\u23af\u23af
+
+ FAIL  test/ai-category-safety.test.ts > category-safe assistant replies > adds exactly one fixed limitation for trip-length compound Penang hotels, 3 days
+ FAIL  test/ai-category-safety.test.ts > category-safe assistant replies > adds exactly one fixed limitation for trip-length compound Penang hotle for 3 dyas
+ FAIL  test/ai-category-safety.test.ts > category-safe assistant replies > adds exactly one fixed limitation for trip-length compound Penang hotel for 3 dya
+ FAIL  test/ai-category-safety.test.ts > category-safe assistant replies > adds exactly one fixed limitation for trip-length compound Penang hotel and plann a trip itinerary
+ FAIL  test/ai-category-safety.test.ts > category-safe assistant replies > adds exactly one fixed limitation for trip-length compound Penang hotel for three days
+AssertionError: expected 'TravelMate currently lists 1 hotel in\u2026' to be 'TravelMate currently lists 1 hotel in\u2026' // Object.is equality
+
+- Expected
++ Received
+
+  TravelMate currently lists 1 hotel in Penang: Catalogue Match. These are catalogue matches.
+-
+- This chat cannot build a schedule; use Itinerary and Add to choose days and slots.
+
+ \u276f test/ai-category-safety.test.ts:78:26
+     76|       ? "\u804a\u5929\u65e0\u6cd5\u7f16\u6392\u884c\u7a0b\uff1b\u8bf7\\u2026
+     77|       : "This chat cannot build a schedule; use Itinerary and Add to c\u2026
+     78|     expect(result.reply).toBe(`${base}\n\n${ending}`);
+       |                          ^
+     79|     expect(result.reply.split(ending)).toHaveLength(2);
+     80|     expect(result.suggestedPlaces).toEqual([]);
+
+\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af[1/11]\u23af
+
+ FAIL  test/ai-category-safety.test.ts > category-safe assistant replies > adds exactly one fixed limitation for trip-length compound Penang restaurants for a 2-day trip
+ FAIL  test/ai-category-safety.test.ts > category-safe assistant replies > adds exactly one fixed limitation for trip-length compound Penang restuarant for 3 dasy
+ FAIL  test/ai-category-safety.test.ts > category-safe assistant replies > adds exactly one fixed limitation for trip-length compound Penang restaurant and planing a trip
+AssertionError: expected 'TravelMate currently lists 1 restaura\u2026' to be 'TravelMate currently lists 1 restaura\u2026' // Object.is equality
+
+- Expected
++ Received
+
+  TravelMate currently lists 1 restaurant in Penang: Catalogue Match. These are catalogue matches.
+-
+- This chat cannot build a schedule; use Itinerary and Add to choose days and slots.
+
+ \u276f test/ai-category-safety.test.ts:78:26
+     76|       ? "\u804a\u5929\u65e0\u6cd5\u7f16\u6392\u884c\u7a0b\uff1b\u8bf7\\u2026
+     77|       : "This chat cannot build a schedule; use Itinerary and Add to c\u2026
+     78|     expect(result.reply).toBe(`${base}\n\n${ending}`);
+       |                          ^
+     79|     expect(result.reply.split(ending)).toHaveLength(2);
+     80|     expect(result.suggestedPlaces).toEqual([]);
+
+\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af[2/11]\u23af
+
+ FAIL  test/ai-category-safety.test.ts > category-safe assistant replies > adds exactly one fixed limitation for trip-length compound \u69df\u57ce\u9152\u5e97\uff0c\u4e09\u5929\u884c\u7a0b
+ FAIL  test/ai-category-safety.test.ts > category-safe assistant replies > adds exactly one fixed limitation for trip-length compound \u69df\u57ce\u9152\u5e97\uff0c\uff13\u5929
+AssertionError: expected 'TravelMate \u76ee\u524d\u5728Penang\u6536\u5f55 1 \u5bb6\u9152\u5e97\uff1aCatalogu\u2026' to be 'TravelMate \u76ee\u524d\u5728Penang\u6536\u5f55 1 \u5bb6\u9152\u5e97\uff1aCatalogu\u2026' // Object.is equality
+
+- Expected
++ Received
+
+  TravelMate \u76ee\u524d\u5728Penang\u6536\u5f55 1 \u5bb6\u9152\u5e97\uff1aCatalogue Match\u3002\u8fd9\u4e9b\u662f\u76ee\u5f55\u5339\u914d\u7ed3\u679c\u3002
+-
+- \u804a\u5929\u65e0\u6cd5\u7f16\u6392\u884c\u7a0b\uff1b\u8bf7\u4f7f\u7528 Itinerary \u548c Add \u9009\u62e9\u65e5\u671f\u548c\u65f6\u6bb5\u3002
+
+ \u276f test/ai-category-safety.test.ts:78:26
+     76|       ? "\u804a\u5929\u65e0\u6cd5\u7f16\u6392\u884c\u7a0b\uff1b\u8bf7\\u2026
+     77|       : "This chat cannot build a schedule; use Itinerary and Add to c\u2026
+     78|     expect(result.reply).toBe(`${base}\n\n${ending}`);
+       |                          ^
+     79|     expect(result.reply.split(ending)).toHaveLength(2);
+     80|     expect(result.suggestedPlaces).toEqual([]);
+
+\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af[3/11]\u23af
+
+ FAIL  test/ai-category-safety.test.ts > category-safe assistant replies > adds exactly one fixed limitation for trip-length compound \u69df\u57ce\u9910\u5385\uff0c3\u65e5
+AssertionError: expected 'TravelMate \u76ee\u524d\u5728Penang\u6536\u5f55 1 \u5bb6\u9910\u5385\uff1aCatalogu\u2026' to be 'TravelMate \u76ee\u524d\u5728Penang\u6536\u5f55 1 \u5bb6\u9910\u5385\uff1aCatalogu\u2026' // Object.is equality
+
+- Expected
++ Received
+
+  TravelMate \u76ee\u524d\u5728Penang\u6536\u5f55 1 \u5bb6\u9910\u5385\uff1aCatalogue Match\u3002\u8fd9\u4e9b\u662f\u76ee\u5f55\u5339\u914d\u7ed3\u679c\u3002
+-
+- \u804a\u5929\u65e0\u6cd5\u7f16\u6392\u884c\u7a0b\uff1b\u8bf7\u4f7f\u7528 Itinerary \u548c Add \u9009\u62e9\u65e5\u671f\u548c\u65f6\u6bb5\u3002
+
+ \u276f test/ai-category-safety.test.ts:78:26
+     76|       ? "\u804a\u5929\u65e0\u6cd5\u7f16\u6392\u884c\u7a0b\uff1b\u8bf7\\u2026
+     77|       : "This chat cannot build a schedule; use Itinerary and Add to c\u2026
+     78|     expect(result.reply).toBe(`${base}\n\n${ending}`);
+       |                          ^
+     79|     expect(result.reply.split(ending)).toHaveLength(2);
+     80|     expect(result.suggestedPlaces).toEqual([]);
+
+\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af[4/11]\u23af
+

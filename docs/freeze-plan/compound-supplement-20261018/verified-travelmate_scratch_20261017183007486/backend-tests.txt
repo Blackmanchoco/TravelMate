@@ -1,0 +1,14 @@
+
+> [REDACTED]-backend@0.1.0 test
+> vitest run
+
+
+ RUN  v4.1.11 C:/FYP/[REDACTED]-compound-request/backend
+
+
+ Test Files  27 passed (27)
+      Tests  214 passed (214)
+   Start at  02:30:08
+   Duration  1.06s (transform 4.66s, setup 0ms, import 6.60s, tests 1.12s, environment 3ms)
+
+

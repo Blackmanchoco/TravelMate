@@ -1,0 +1,77 @@
+{
+  "startedAt": "2026-10-18T06:09:49.515Z",
+  "database": "travelmate_scratch_20261018060949514",
+  "created": true,
+  "dropped": true,
+  "plannedCases": 15,
+  "plannedRows": 45,
+  "results": [],
+  "checks": [
+    {
+      "name": "scratch-v6-restore",
+      "exitCode": 0
+    },
+    {
+      "name": "backend-build",
+      "exitCode": 0
+    },
+    {
+      "name": "ollama-warm-up",
+      "exitCode": 0
+    },
+    {
+      "name": "python-warm-up",
+      "exitCode": 0,
+      "durationMs": 21370
+    }
+  ],
+  "stop": "SETUP_OR_RUNTIME_ERROR_WITHHELD",
+  "environmentGuard": {
+    "dotenv": "default non-overriding; DOTENV_CONFIG_PATH points to nonexistent file",
+    "application": "DATABASE_URL replaced in process memory before any import or child spawn; each child explicitly receives it",
+    "pool": "pg.Pool.connect validates owned scratch name and configured target before every application pool connection",
+    "maintenance": "postgres maintenance connection only: pg_database names and exact owned CREATE/DROP; no main/demo connection",
+    "childOutput": "withheld entirely; only named exit statuses recorded"
+  },
+  "originalRawHashBefore": "471913F7ECAC18252B336CD8249AA76E7708B72F9DC43F4E3CC5B7AE6B37F97D",
+  "phase": "legacy-create-no-preference-account",
+  "databaseNamesBefore": [
+    "postgres",
+    "template0",
+    "template1",
+    "travelmate",
+    "travelmate_backup_verify_20261005",
+    "travelmate_c4_restore_20261004",
+    "travelmate_c4_restore_20261005",
+    "travelmate_demo_20261006"
+  ],
+  "baseline": {
+    "database": "travelmate_scratch_20261018060949514",
+    "discoverablePlaces": 56
+  },
+  "port": 64894,
+  "errorType": "TypeError",
+  "databaseNamesAfter": [
+    "postgres",
+    "template0",
+    "template1",
+    "travelmate",
+    "travelmate_backup_verify_20261005",
+    "travelmate_c4_restore_20261004",
+    "travelmate_c4_restore_20261005",
+    "travelmate_demo_20261006"
+  ],
+  "originalRawHashAfter": "471913F7ECAC18252B336CD8249AA76E7708B72F9DC43F4E3CC5B7AE6B37F97D",
+  "originalRawUnchanged": true,
+  "finishedAt": "2026-10-18T06:10:21.520Z",
+  "completed": 0,
+  "passed": 0,
+  "failed": 0,
+  "observations": 0,
+  "notRun": 45,
+  "origins": {
+    "server-rule": 0,
+    "model-authored": 0,
+    "direct tool": 0
+  }
+}

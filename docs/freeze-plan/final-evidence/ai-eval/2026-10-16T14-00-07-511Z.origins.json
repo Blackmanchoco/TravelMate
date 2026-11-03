@@ -1,0 +1,2479 @@
+{
+  "rawFile": "C:\\FYP\\travelmate-freeze-verification\\docs\\freeze-plan\\final-evidence\\ai-eval\\2026-10-16T14-00-07-511Z.jsonl",
+  "rawSha256": "471913f7ecac18252b336cd8249aa76e7708b72f9dc43f4e3cc5b7ae6b37f97d",
+  "method": "Reply origin reconstructed from the captured message, tool usage and deterministic handler paths, including the exact named-set priceLevel formatter. This raw format did not record an explicit origin field. All successful conversation requests first called the model, including server-rule replies; model participation is not equivalent to model-authored wording. Direct tool latencies were not recorded. Historical reports retain their original classifications.",
+  "classes": {
+    "server_rule": {
+      "total": 138,
+      "passed": 138,
+      "failed": 0,
+      "latencySamples": 138,
+      "p50Ms": 791,
+      "p95Ms": 1410,
+      "p99Ms": 15094
+    },
+    "model": {
+      "total": 18,
+      "passed": 18,
+      "failed": 0,
+      "latencySamples": 18,
+      "p50Ms": 1506,
+      "p95Ms": 34615,
+      "p99Ms": 34615
+    },
+    "direct_tool": {
+      "total": 27,
+      "passed": 27,
+      "failed": 0,
+      "latencySamples": 0,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null
+    }
+  },
+  "modelCallOccurred": 156,
+  "cases": [
+    {
+      "caseId": "context_recall",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 285,
+      "p95Ms": 672,
+      "p99Ms": 672,
+      "origins": [
+        "model"
+      ]
+    },
+    {
+      "caseId": "polluted_history_unesco",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 1566,
+      "p95Ms": 1595,
+      "p99Ms": 1595,
+      "origins": [
+        "model"
+      ]
+    },
+    {
+      "caseId": "negative_hallucination_unesco",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 1473,
+      "p95Ms": 1504,
+      "p99Ms": 1504,
+      "origins": [
+        "model"
+      ]
+    },
+    {
+      "caseId": "george_town_attribute_search",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 1428,
+      "p95Ms": 1657,
+      "p99Ms": 1657,
+      "origins": [
+        "model"
+      ]
+    },
+    {
+      "caseId": "price_scope_followup",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 1667,
+      "p95Ms": 1688,
+      "p99Ms": 1688,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "price_scope_english_named",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 1400,
+      "p95Ms": 1410,
+      "p99Ms": 1410,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "no_preference_recommendation",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 716,
+      "p95Ms": 736,
+      "p99Ms": 736,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "hotel_typo_penang",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 723,
+      "p95Ms": 806,
+      "p99Ms": 806,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "hotel_chinese_penang",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 724,
+      "p95Ms": 726,
+      "p99Ms": 726,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "restaurant_penang_zero",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 793,
+      "p95Ms": 802,
+      "p99Ms": 802,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "restaurant_kl_jalan_alor",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 737,
+      "p95Ms": 749,
+      "p99Ms": 749,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "personalized_category_unavailable",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 708,
+      "p95Ms": 724,
+      "p99Ms": 724,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "schedule_request_english",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 1161,
+      "p95Ms": 1165,
+      "p99Ms": 1165,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "schedule_request_chinese",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 715,
+      "p95Ms": 729,
+      "p99Ms": 729,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "restarant_penang_zero",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 789,
+      "p95Ms": 795,
+      "p99Ms": 795,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "restarant_kl_jalan_alor",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 812,
+      "p95Ms": 843,
+      "p99Ms": 843,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "restaurent_penang_zero",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 784,
+      "p95Ms": 798,
+      "p99Ms": 798,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "restaurent_kl_jalan_alor",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 810,
+      "p95Ms": 811,
+      "p99Ms": 811,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "resturant_penang_zero",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 797,
+      "p95Ms": 804,
+      "p99Ms": 804,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "resturant_kl_jalan_alor",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 811,
+      "p95Ms": 832,
+      "p99Ms": 832,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "restraunt_penang_zero",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 779,
+      "p95Ms": 781,
+      "p99Ms": 781,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "restraunt_kl_jalan_alor",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 792,
+      "p95Ms": 802,
+      "p99Ms": 802,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "food_question_penang_zero",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 771,
+      "p95Ms": 776,
+      "p99Ms": 776,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "food_question_kl_jalan_alor",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 791,
+      "p95Ms": 800,
+      "p99Ms": 800,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "where_to_eat_penang_zero",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 765,
+      "p95Ms": 777,
+      "p99Ms": 777,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "where_to_eat_kl_jalan_alor",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 789,
+      "p95Ms": 797,
+      "p99Ms": 797,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "chinese_restaurant_penang_zero",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 771,
+      "p95Ms": 777,
+      "p99Ms": 777,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "chinese_restaurant_kl_jalan_alor",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 790,
+      "p95Ms": 793,
+      "p99Ms": 793,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "chinese_food_penang_zero",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 763,
+      "p95Ms": 778,
+      "p99Ms": 778,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "chinese_food_kl_jalan_alor",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 787,
+      "p95Ms": 800,
+      "p99Ms": 800,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "hotle_penang_zero",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 815,
+      "p95Ms": 818,
+      "p99Ms": 818,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "hotell_penang_zero",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 814,
+      "p95Ms": 818,
+      "p99Ms": 818,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "acomodation_penang_zero",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 816,
+      "p95Ms": 822,
+      "p99Ms": 822,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "accomodation_penang_zero",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 814,
+      "p95Ms": 820,
+      "p99Ms": 820,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "penang_attractions_post_import",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 655,
+      "p95Ms": 737,
+      "p99Ms": 737,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "kl_things_to_do_post_import",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 817,
+      "p95Ms": 820,
+      "p99Ms": 820,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "melaka_places_to_visit_post_import",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 791,
+      "p95Ms": 811,
+      "p99Ms": 811,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "penang_attractions_chinese_post_import",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 791,
+      "p95Ms": 801,
+      "p99Ms": 801,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "kl_things_to_do_chinese_post_import",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 929,
+      "p95Ms": 1057,
+      "p99Ms": 1057,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "melaka_places_to_visit_chinese_post_import",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 759,
+      "p95Ms": 760,
+      "p99Ms": 760,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "penang_attractions_restaurant_name_negative",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 907,
+      "p95Ms": 1057,
+      "p99Ms": 1057,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "penang_attractions_hotel_name_negative",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 990,
+      "p95Ms": 1178,
+      "p99Ms": 1178,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "personalized_kuala_lumpur_post_import",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 15538,
+      "p95Ms": 34615,
+      "p99Ms": 34615,
+      "origins": [
+        "model"
+      ]
+    },
+    {
+      "caseId": "personalized_penang_post_import",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 14582,
+      "p95Ms": 16119,
+      "p99Ms": 16119,
+      "origins": [
+        "model"
+      ]
+    },
+    {
+      "caseId": "personalized_melaka_post_import",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 15094,
+      "p95Ms": 15369,
+      "p99Ms": 15369,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "personalized_restaurant_category_restricted_post_import",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 702,
+      "p95Ms": 710,
+      "p99Ms": 710,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "kl_hotel_imported",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 830,
+      "p95Ms": 833,
+      "p99Ms": 833,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "melaka_hotel_imported",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 676,
+      "p95Ms": 689,
+      "p99Ms": 689,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "melaka_restaurant_honest_zero",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 770,
+      "p95Ms": 776,
+      "p99Ms": 776,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "kuching_hotel_honest_zero",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 704,
+      "p95Ms": 708,
+      "p99Ms": 708,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "kl_restaurant_chinese_imported",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 793,
+      "p95Ms": 806,
+      "p99Ms": 806,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "penang_hotel_chinese_imported",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 3,
+      "p50Ms": 813,
+      "p95Ms": 824,
+      "p99Ms": 824,
+      "origins": [
+        "server_rule"
+      ]
+    },
+    {
+      "caseId": "description_fallback_unesco",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 0,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "origins": [
+        "direct_tool"
+      ]
+    },
+    {
+      "caseId": "george_town_name_match",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 0,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "origins": [
+        "direct_tool"
+      ]
+    },
+    {
+      "caseId": "exact_name_priority_limit_one",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 0,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "origins": [
+        "direct_tool"
+      ]
+    },
+    {
+      "caseId": "test_fixture_excluded",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 0,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "origins": [
+        "direct_tool"
+      ]
+    },
+    {
+      "caseId": "test_category_argument_rejected",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 0,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "origins": [
+        "direct_tool"
+      ]
+    },
+    {
+      "caseId": "invalid_limit_rejected",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 0,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "origins": [
+        "direct_tool"
+      ]
+    },
+    {
+      "caseId": "restaurant_name_intersection",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 0,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "origins": [
+        "direct_tool"
+      ]
+    },
+    {
+      "caseId": "restaurant_category_leak_blocked",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 0,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "origins": [
+        "direct_tool"
+      ]
+    },
+    {
+      "caseId": "chinese_hotel_category_empty",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "latencySamples": 0,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "origins": [
+        "direct_tool"
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "caseId": "context_recall",
+      "iteration": 1,
+      "origin": "model",
+      "reason": "Model reply retained by the handler",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 672
+    },
+    {
+      "caseId": "context_recall",
+      "iteration": 2,
+      "origin": "model",
+      "reason": "Model reply retained by the handler",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 157
+    },
+    {
+      "caseId": "context_recall",
+      "iteration": 3,
+      "origin": "model",
+      "reason": "Model reply retained by the handler",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 285
+    },
+    {
+      "caseId": "polluted_history_unesco",
+      "iteration": 1,
+      "origin": "model",
+      "reason": "Model reply retained by the handler",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 1566
+    },
+    {
+      "caseId": "polluted_history_unesco",
+      "iteration": 2,
+      "origin": "model",
+      "reason": "Model reply retained by the handler",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 1595
+    },
+    {
+      "caseId": "polluted_history_unesco",
+      "iteration": 3,
+      "origin": "model",
+      "reason": "Model reply retained by the handler",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 1506
+    },
+    {
+      "caseId": "negative_hallucination_unesco",
+      "iteration": 1,
+      "origin": "model",
+      "reason": "Model reply retained by the handler",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 1504
+    },
+    {
+      "caseId": "negative_hallucination_unesco",
+      "iteration": 2,
+      "origin": "model",
+      "reason": "Model reply retained by the handler",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 1473
+    },
+    {
+      "caseId": "negative_hallucination_unesco",
+      "iteration": 3,
+      "origin": "model",
+      "reason": "Model reply retained by the handler",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 1469
+    },
+    {
+      "caseId": "george_town_attribute_search",
+      "iteration": 1,
+      "origin": "model",
+      "reason": "Model reply retained by the handler",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 1428
+    },
+    {
+      "caseId": "george_town_attribute_search",
+      "iteration": 2,
+      "origin": "model",
+      "reason": "Model reply retained by the handler",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 1657
+    },
+    {
+      "caseId": "george_town_attribute_search",
+      "iteration": 3,
+      "origin": "model",
+      "reason": "Model reply retained by the handler",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 1427
+    },
+    {
+      "caseId": "price_scope_followup",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic named-set priceLevel comparison",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 1688
+    },
+    {
+      "caseId": "price_scope_followup",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic named-set priceLevel comparison",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 1666
+    },
+    {
+      "caseId": "price_scope_followup",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic named-set priceLevel comparison",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 1667
+    },
+    {
+      "caseId": "price_scope_english_named",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic named-set priceLevel comparison",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 1410
+    },
+    {
+      "caseId": "price_scope_english_named",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic named-set priceLevel comparison",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 1391
+    },
+    {
+      "caseId": "price_scope_english_named",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic named-set priceLevel comparison",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 1400
+    },
+    {
+      "caseId": "no_preference_recommendation",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic honest tool fallback",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 736
+    },
+    {
+      "caseId": "no_preference_recommendation",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic honest tool fallback",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 713
+    },
+    {
+      "caseId": "no_preference_recommendation",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic honest tool fallback",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 716
+    },
+    {
+      "caseId": "hotel_typo_penang",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 806
+    },
+    {
+      "caseId": "hotel_typo_penang",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 723
+    },
+    {
+      "caseId": "hotel_typo_penang",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 715
+    },
+    {
+      "caseId": "hotel_chinese_penang",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 726
+    },
+    {
+      "caseId": "hotel_chinese_penang",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 721
+    },
+    {
+      "caseId": "hotel_chinese_penang",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 724
+    },
+    {
+      "caseId": "restaurant_penang_zero",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 802
+    },
+    {
+      "caseId": "restaurant_penang_zero",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 785
+    },
+    {
+      "caseId": "restaurant_penang_zero",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 793
+    },
+    {
+      "caseId": "restaurant_kl_jalan_alor",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 749
+    },
+    {
+      "caseId": "restaurant_kl_jalan_alor",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 737
+    },
+    {
+      "caseId": "restaurant_kl_jalan_alor",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 736
+    },
+    {
+      "caseId": "personalized_category_unavailable",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 724
+    },
+    {
+      "caseId": "personalized_category_unavailable",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 708
+    },
+    {
+      "caseId": "personalized_category_unavailable",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 706
+    },
+    {
+      "caseId": "schedule_request_english",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic honest tool fallback",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 1085
+    },
+    {
+      "caseId": "schedule_request_english",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic honest tool fallback",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 1165
+    },
+    {
+      "caseId": "schedule_request_english",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic honest tool fallback",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 1161
+    },
+    {
+      "caseId": "schedule_request_chinese",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic honest tool fallback",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 729
+    },
+    {
+      "caseId": "schedule_request_chinese",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic honest tool fallback",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 715
+    },
+    {
+      "caseId": "schedule_request_chinese",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic honest tool fallback",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 710
+    },
+    {
+      "caseId": "restarant_penang_zero",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 795
+    },
+    {
+      "caseId": "restarant_penang_zero",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 786
+    },
+    {
+      "caseId": "restarant_penang_zero",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 789
+    },
+    {
+      "caseId": "restarant_kl_jalan_alor",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 843
+    },
+    {
+      "caseId": "restarant_kl_jalan_alor",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 807
+    },
+    {
+      "caseId": "restarant_kl_jalan_alor",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 812
+    },
+    {
+      "caseId": "restaurent_penang_zero",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 798
+    },
+    {
+      "caseId": "restaurent_penang_zero",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 778
+    },
+    {
+      "caseId": "restaurent_penang_zero",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 784
+    },
+    {
+      "caseId": "restaurent_kl_jalan_alor",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 811
+    },
+    {
+      "caseId": "restaurent_kl_jalan_alor",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 799
+    },
+    {
+      "caseId": "restaurent_kl_jalan_alor",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 810
+    },
+    {
+      "caseId": "resturant_penang_zero",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 804
+    },
+    {
+      "caseId": "resturant_penang_zero",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 797
+    },
+    {
+      "caseId": "resturant_penang_zero",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 791
+    },
+    {
+      "caseId": "resturant_kl_jalan_alor",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 832
+    },
+    {
+      "caseId": "resturant_kl_jalan_alor",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 811
+    },
+    {
+      "caseId": "resturant_kl_jalan_alor",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 811
+    },
+    {
+      "caseId": "restraunt_penang_zero",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 781
+    },
+    {
+      "caseId": "restraunt_penang_zero",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 779
+    },
+    {
+      "caseId": "restraunt_penang_zero",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 771
+    },
+    {
+      "caseId": "restraunt_kl_jalan_alor",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 802
+    },
+    {
+      "caseId": "restraunt_kl_jalan_alor",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 792
+    },
+    {
+      "caseId": "restraunt_kl_jalan_alor",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 784
+    },
+    {
+      "caseId": "food_question_penang_zero",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 776
+    },
+    {
+      "caseId": "food_question_penang_zero",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 764
+    },
+    {
+      "caseId": "food_question_penang_zero",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 771
+    },
+    {
+      "caseId": "food_question_kl_jalan_alor",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 800
+    },
+    {
+      "caseId": "food_question_kl_jalan_alor",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 791
+    },
+    {
+      "caseId": "food_question_kl_jalan_alor",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 782
+    },
+    {
+      "caseId": "where_to_eat_penang_zero",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 777
+    },
+    {
+      "caseId": "where_to_eat_penang_zero",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 765
+    },
+    {
+      "caseId": "where_to_eat_penang_zero",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 764
+    },
+    {
+      "caseId": "where_to_eat_kl_jalan_alor",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 797
+    },
+    {
+      "caseId": "where_to_eat_kl_jalan_alor",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 784
+    },
+    {
+      "caseId": "where_to_eat_kl_jalan_alor",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 789
+    },
+    {
+      "caseId": "chinese_restaurant_penang_zero",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 777
+    },
+    {
+      "caseId": "chinese_restaurant_penang_zero",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 771
+    },
+    {
+      "caseId": "chinese_restaurant_penang_zero",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 764
+    },
+    {
+      "caseId": "chinese_restaurant_kl_jalan_alor",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 790
+    },
+    {
+      "caseId": "chinese_restaurant_kl_jalan_alor",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 793
+    },
+    {
+      "caseId": "chinese_restaurant_kl_jalan_alor",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 780
+    },
+    {
+      "caseId": "chinese_food_penang_zero",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 778
+    },
+    {
+      "caseId": "chinese_food_penang_zero",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 763
+    },
+    {
+      "caseId": "chinese_food_penang_zero",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 761
+    },
+    {
+      "caseId": "chinese_food_kl_jalan_alor",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 800
+    },
+    {
+      "caseId": "chinese_food_kl_jalan_alor",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 782
+    },
+    {
+      "caseId": "chinese_food_kl_jalan_alor",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 787
+    },
+    {
+      "caseId": "hotle_penang_zero",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 818
+    },
+    {
+      "caseId": "hotle_penang_zero",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 813
+    },
+    {
+      "caseId": "hotle_penang_zero",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 815
+    },
+    {
+      "caseId": "hotell_penang_zero",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 818
+    },
+    {
+      "caseId": "hotell_penang_zero",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 813
+    },
+    {
+      "caseId": "hotell_penang_zero",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 814
+    },
+    {
+      "caseId": "acomodation_penang_zero",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 816
+    },
+    {
+      "caseId": "acomodation_penang_zero",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 822
+    },
+    {
+      "caseId": "acomodation_penang_zero",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 813
+    },
+    {
+      "caseId": "accomodation_penang_zero",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 820
+    },
+    {
+      "caseId": "accomodation_penang_zero",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 810
+    },
+    {
+      "caseId": "accomodation_penang_zero",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 814
+    },
+    {
+      "caseId": "penang_attractions_post_import",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 737
+    },
+    {
+      "caseId": "penang_attractions_post_import",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 655
+    },
+    {
+      "caseId": "penang_attractions_post_import",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 654
+    },
+    {
+      "caseId": "kl_things_to_do_post_import",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 820
+    },
+    {
+      "caseId": "kl_things_to_do_post_import",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 807
+    },
+    {
+      "caseId": "kl_things_to_do_post_import",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 817
+    },
+    {
+      "caseId": "melaka_places_to_visit_post_import",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 811
+    },
+    {
+      "caseId": "melaka_places_to_visit_post_import",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 791
+    },
+    {
+      "caseId": "melaka_places_to_visit_post_import",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 791
+    },
+    {
+      "caseId": "penang_attractions_chinese_post_import",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 801
+    },
+    {
+      "caseId": "penang_attractions_chinese_post_import",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 791
+    },
+    {
+      "caseId": "penang_attractions_chinese_post_import",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 790
+    },
+    {
+      "caseId": "kl_things_to_do_chinese_post_import",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 831
+    },
+    {
+      "caseId": "kl_things_to_do_chinese_post_import",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 929
+    },
+    {
+      "caseId": "kl_things_to_do_chinese_post_import",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 1057
+    },
+    {
+      "caseId": "melaka_places_to_visit_chinese_post_import",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 759
+    },
+    {
+      "caseId": "melaka_places_to_visit_chinese_post_import",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 760
+    },
+    {
+      "caseId": "melaka_places_to_visit_chinese_post_import",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 697
+    },
+    {
+      "caseId": "penang_attractions_restaurant_name_negative",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 866
+    },
+    {
+      "caseId": "penang_attractions_restaurant_name_negative",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 907
+    },
+    {
+      "caseId": "penang_attractions_restaurant_name_negative",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 1057
+    },
+    {
+      "caseId": "penang_attractions_hotel_name_negative",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 1178
+    },
+    {
+      "caseId": "penang_attractions_hotel_name_negative",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 990
+    },
+    {
+      "caseId": "penang_attractions_hotel_name_negative",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 978
+    },
+    {
+      "caseId": "personalized_kuala_lumpur_post_import",
+      "iteration": 1,
+      "origin": "model",
+      "reason": "Model reply retained by the handler",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 34615
+    },
+    {
+      "caseId": "personalized_kuala_lumpur_post_import",
+      "iteration": 2,
+      "origin": "model",
+      "reason": "Model reply retained by the handler",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 15538
+    },
+    {
+      "caseId": "personalized_kuala_lumpur_post_import",
+      "iteration": 3,
+      "origin": "model",
+      "reason": "Model reply retained by the handler",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 15427
+    },
+    {
+      "caseId": "personalized_penang_post_import",
+      "iteration": 1,
+      "origin": "model",
+      "reason": "Model reply retained by the handler",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 16119
+    },
+    {
+      "caseId": "personalized_penang_post_import",
+      "iteration": 2,
+      "origin": "model",
+      "reason": "Model reply retained by the handler",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 14582
+    },
+    {
+      "caseId": "personalized_penang_post_import",
+      "iteration": 3,
+      "origin": "model",
+      "reason": "Model reply retained by the handler",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 12484
+    },
+    {
+      "caseId": "personalized_melaka_post_import",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic labelled discovery or schedule replacement",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 15369
+    },
+    {
+      "caseId": "personalized_melaka_post_import",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic labelled discovery or schedule replacement",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 13113
+    },
+    {
+      "caseId": "personalized_melaka_post_import",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic labelled discovery or schedule replacement",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 15094
+    },
+    {
+      "caseId": "personalized_restaurant_category_restricted_post_import",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 710
+    },
+    {
+      "caseId": "personalized_restaurant_category_restricted_post_import",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 693
+    },
+    {
+      "caseId": "personalized_restaurant_category_restricted_post_import",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 702
+    },
+    {
+      "caseId": "kl_hotel_imported",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 750
+    },
+    {
+      "caseId": "kl_hotel_imported",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 833
+    },
+    {
+      "caseId": "kl_hotel_imported",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 830
+    },
+    {
+      "caseId": "melaka_hotel_imported",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 689
+    },
+    {
+      "caseId": "melaka_hotel_imported",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 674
+    },
+    {
+      "caseId": "melaka_hotel_imported",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 676
+    },
+    {
+      "caseId": "melaka_restaurant_honest_zero",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 776
+    },
+    {
+      "caseId": "melaka_restaurant_honest_zero",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 767
+    },
+    {
+      "caseId": "melaka_restaurant_honest_zero",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 770
+    },
+    {
+      "caseId": "kuching_hotel_honest_zero",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 708
+    },
+    {
+      "caseId": "kuching_hotel_honest_zero",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 704
+    },
+    {
+      "caseId": "kuching_hotel_honest_zero",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 701
+    },
+    {
+      "caseId": "kl_restaurant_chinese_imported",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 806
+    },
+    {
+      "caseId": "kl_restaurant_chinese_imported",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 793
+    },
+    {
+      "caseId": "kl_restaurant_chinese_imported",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 786
+    },
+    {
+      "caseId": "penang_hotel_chinese_imported",
+      "iteration": 1,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 824
+    },
+    {
+      "caseId": "penang_hotel_chinese_imported",
+      "iteration": 2,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 813
+    },
+    {
+      "caseId": "penang_hotel_chinese_imported",
+      "iteration": 3,
+      "origin": "server_rule",
+      "reason": "Deterministic category guard and formatter",
+      "modelCallOccurred": true,
+      "pass": true,
+      "elapsedMs": 811
+    },
+    {
+      "caseId": "description_fallback_unesco",
+      "iteration": 1,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "description_fallback_unesco",
+      "iteration": 2,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "description_fallback_unesco",
+      "iteration": 3,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "george_town_name_match",
+      "iteration": 1,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "george_town_name_match",
+      "iteration": 2,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "george_town_name_match",
+      "iteration": 3,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "exact_name_priority_limit_one",
+      "iteration": 1,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "exact_name_priority_limit_one",
+      "iteration": 2,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "exact_name_priority_limit_one",
+      "iteration": 3,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "test_fixture_excluded",
+      "iteration": 1,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "test_fixture_excluded",
+      "iteration": 2,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "test_fixture_excluded",
+      "iteration": 3,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "test_category_argument_rejected",
+      "iteration": 1,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "test_category_argument_rejected",
+      "iteration": 2,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "test_category_argument_rejected",
+      "iteration": 3,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "invalid_limit_rejected",
+      "iteration": 1,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "invalid_limit_rejected",
+      "iteration": 2,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "invalid_limit_rejected",
+      "iteration": 3,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "restaurant_name_intersection",
+      "iteration": 1,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "restaurant_name_intersection",
+      "iteration": 2,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "restaurant_name_intersection",
+      "iteration": 3,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "restaurant_category_leak_blocked",
+      "iteration": 1,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "restaurant_category_leak_blocked",
+      "iteration": 2,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "restaurant_category_leak_blocked",
+      "iteration": 3,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "chinese_hotel_category_empty",
+      "iteration": 1,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "chinese_hotel_category_empty",
+      "iteration": 2,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    },
+    {
+      "caseId": "chinese_hotel_category_empty",
+      "iteration": 3,
+      "origin": "direct_tool",
+      "reason": "Direct tool evaluation",
+      "modelCallOccurred": false,
+      "pass": true,
+      "elapsedMs": null
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+
+> [REDACTED]-backend@0.1.0 test
+> vitest run test/ai-category-safety.test.ts
+
+
+ RUN  v4.1.11 C:/FYP/[REDACTED]-compound-request/backend
+
+ \u276f test/ai-category-safety.test.ts (64 tests | 3 failed) 49ms
+     \u00d7 preserves non-compound and stay-length reply exactly for \u69df\u57ce\u9152\u5e97\uff0c3\u6708 3\u65e5\u5165\u4f4f 4ms
+     \u00d7 preserves non-compound and stay-length reply exactly for \u69df\u57ce\u9152\u5e97\uff0c10 \u6708 18 \u65e5\u5165\u4f4f 1ms
+     \u00d7 preserves non-compound and stay-length reply exactly for \u69df\u57ce\u9152\u5e97\uff0c\u4e09\u6708\u4e8c\u5341\u4e09\u65e5\u5165\u4f4f 1ms
+
+ Test Files  1 failed (1)
+      Tests  3 failed | 61 passed (64)
+   Start at  02:29:41
+   Duration  288ms (transform 71ms, setup 0ms, import 100ms, tests 49ms, environment 0ms)
+
+
+
+\u23af\u23af\u23af\u23af\u23af\u23af\u23af Failed Tests 3 \u23af\u23af\u23af\u23af\u23af\u23af\u23af
+
+ FAIL  test/ai-category-safety.test.ts > category-safe assistant replies > preserves non-compound and stay-length reply exactly for \u69df\u57ce\u9152\u5e97\uff0c3\u6708 3\u65e5\u5165\u4f4f
+ FAIL  test/ai-category-safety.test.ts > category-safe assistant replies > preserves non-compound and stay-length reply exactly for \u69df\u57ce\u9152\u5e97\uff0c10 \u6708 18 \u65e5\u5165\u4f4f
+ FAIL  test/ai-category-safety.test.ts > category-safe assistant replies > preserves non-compound and stay-length reply exactly for \u69df\u57ce\u9152\u5e97\uff0c\u4e09\u6708\u4e8c\u5341\u4e09\u65e5\u5165\u4f4f
+AssertionError: expected 'TravelMate \u76ee\u524d\u5728Penang\u6536\u5f55 1 \u5bb6\u9152\u5e97\uff1aCatalogu\u2026' to be 'TravelMate \u76ee\u524d\u5728Penang\u6536\u5f55 1 \u5bb6\u9152\u5e97\uff1aCatalogu\u2026' // Object.is equality
+
+- Expected
++ Received
+
+  TravelMate \u76ee\u524d\u5728Penang\u6536\u5f55 1 \u5bb6\u9152\u5e97\uff1aCatalogue Match\u3002\u8fd9\u4e9b\u662f\u76ee\u5f55\u5339\u914d\u7ed3\u679c\u3002
++
++ \u804a\u5929\u65e0\u6cd5\u7f16\u6392\u884c\u7a0b\uff1b\u8bf7\u4f7f\u7528 Itinerary \u548c Add \u9009\u62e9\u65e5\u671f\u548c\u65f6\u6bb5\u3002
+
+ \u276f test/ai-category-safety.test.ts:109:26
+    107|       destination: "Penang", names: [category === "Historical" ? "Cata\u2026
+    108|       totalMatches: 1, availableCategories: [], chinese: /[\u3400-\u9f\u2026
+    109|     expect(result.reply).toBe(expected);
+       |                          ^
+    110|   });
+    111|
+
+\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af\u23af[1/3]\u23af
+

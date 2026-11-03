@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "rawFile": "C:/FYP/travelmate-private-evidence/final-20261016/2026-10-16T14-00-07-511Z.jsonl",
+  "sha256": "471913f7ecac18252b336cd8249aa76e7708b72f9dc43f4e3cc5b7ae6b37f97d",
+  "total": 183,
+  "passed": 183,
+  "failed": 0,
+  "timeouts": 0,
+  "latencySamples": 156,
+  "p50Ms": 793,
+  "p95Ms": 13113,
+  "p99Ms": 16119
+}

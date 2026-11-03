@@ -1,0 +1,31 @@
+{
+  "startedAt": "2026-10-17T18:18:23.965Z",
+  "database": "travelmate_scratch_20261017181823959",
+  "created": false,
+  "dropped": false,
+  "plannedCases": 15,
+  "plannedRows": 45,
+  "results": [],
+  "checks": [],
+  "stop": "SETUP_OR_RUNTIME_ERROR_WITHHELD",
+  "environmentGuard": {
+    "dotenv": "default non-overriding; DOTENV_CONFIG_PATH points to nonexistent file",
+    "application": "DATABASE_URL replaced in process memory before any import or child spawn; each child explicitly receives it",
+    "pool": "pg.Pool.connect validates owned scratch name and configured target before every application pool connection",
+    "maintenance": "postgres maintenance connection only: pg_database names and exact owned CREATE/DROP; no main/demo connection",
+    "childOutput": "withheld entirely; only named exit statuses recorded"
+  },
+  "originalRawHashBefore": "471913F7ECAC18252B336CD8249AA76E7708B72F9DC43F4E3CC5B7AE6B37F97D",
+  "originalRawHashAfter": "471913F7ECAC18252B336CD8249AA76E7708B72F9DC43F4E3CC5B7AE6B37F97D",
+  "originalRawUnchanged": true,
+  "finishedAt": "2026-10-17T18:18:24.635Z",
+  "completed": 0,
+  "passed": 0,
+  "failed": 0,
+  "notRun": 45,
+  "origins": {
+    "server-rule": 0,
+    "model-authored": 0,
+    "direct tool": 0
+  }
+}

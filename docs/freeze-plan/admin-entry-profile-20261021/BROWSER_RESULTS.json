@@ -1,0 +1,140 @@
+{
+  "database": "travelmate_scratch_20261019_finalalias",
+  "checks": [
+    {
+      "name": "admin_profile_console_action",
+      "pass": true
+    },
+    {
+      "name": "admin_profile_role_text",
+      "pass": true
+    },
+    {
+      "name": "admin_header_link_keyboard_focusable",
+      "pass": true
+    },
+    {
+      "name": "admin_link_from_profile-desktop",
+      "pass": true
+    },
+    {
+      "name": "admin_one_click_from_profile-desktop",
+      "pass": true
+    },
+    {
+      "name": "admin_link_from_itinerary-desktop",
+      "pass": true
+    },
+    {
+      "name": "admin_one_click_from_itinerary-desktop",
+      "pass": true
+    },
+    {
+      "name": "admin_link_from_history-desktop",
+      "pass": true
+    },
+    {
+      "name": "admin_one_click_from_history-desktop",
+      "pass": true
+    },
+    {
+      "name": "admin_desktop_account_menu",
+      "pass": true
+    },
+    {
+      "name": "admin_desktop_account_menu_link",
+      "pass": true
+    },
+    {
+      "name": "admin_phone_profile_console_action",
+      "pass": true
+    },
+    {
+      "name": "admin_link_from_profile-phone",
+      "pass": true
+    },
+    {
+      "name": "admin_one_click_from_profile-phone",
+      "pass": true
+    },
+    {
+      "name": "admin_link_from_itinerary-phone",
+      "pass": true
+    },
+    {
+      "name": "admin_one_click_from_itinerary-phone",
+      "pass": true
+    },
+    {
+      "name": "admin_link_from_history-phone",
+      "pass": true
+    },
+    {
+      "name": "admin_one_click_from_history-phone",
+      "pass": true
+    },
+    {
+      "name": "admin_phone_account_menu",
+      "pass": true
+    },
+    {
+      "name": "admin_phone_account_menu_link",
+      "pass": true
+    },
+    {
+      "name": "traveller_profile_original_sections",
+      "pass": true
+    },
+    {
+      "name": "traveller_desktop_header_original",
+      "pass": true
+    },
+    {
+      "name": "traveller_no_admin_profile-desktop",
+      "pass": true
+    },
+    {
+      "name": "traveller_no_admin_itinerary-desktop",
+      "pass": true
+    },
+    {
+      "name": "traveller_no_admin_history-desktop",
+      "pass": true
+    },
+    {
+      "name": "traveller_desktop_account_menu_no_admin",
+      "pass": true
+    },
+    {
+      "name": "traveller_phone_profile_original",
+      "pass": true
+    },
+    {
+      "name": "traveller_phone_no_admin_link",
+      "pass": true
+    },
+    {
+      "name": "traveller_no_admin_profile-phone",
+      "pass": true
+    },
+    {
+      "name": "traveller_no_admin_itinerary-phone",
+      "pass": true
+    },
+    {
+      "name": "traveller_no_admin_history-phone",
+      "pass": true
+    },
+    {
+      "name": "traveller_phone_account_menu_no_admin",
+      "pass": true
+    }
+  ],
+  "screenshots": [
+    "admin-profile-desktop.png",
+    "admin-profile-phone.png",
+    "traveller-profile-desktop.png",
+    "traveller-profile-phone.png"
+  ],
+  "errors": []
+}

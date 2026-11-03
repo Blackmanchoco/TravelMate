@@ -1,0 +1,37 @@
+{
+  "startedAt": "2026-10-23T04:46:32.497Z",
+  "database": "travelmate_scratch_20261023044632490",
+  "created": false,
+  "dropped": false,
+  "databaseRetained": false,
+  "plannedCases": 65,
+  "plannedRows": 195,
+  "results": [],
+  "checks": [],
+  "stop": "SETUP_OR_RUNTIME_ERROR_WITHHELD",
+  "environmentGuard": {
+    "connectionQuery": "Only schema query option accepted; connection host/user/database overrides rejected before every connection",
+    "dotenv": "default non-overriding; DOTENV_CONFIG_PATH points to nonexistent file",
+    "application": "DATABASE_URL replaced in process memory before any import or child spawn; each child explicitly receives it",
+    "pool": "pg.Pool.connect validates owned scratch name and configured target before every application pool connection",
+    "maintenance": "postgres maintenance connection only: pg_database names and exact owned CREATE; no main/demo connection",
+    "childOutput": "withheld entirely; only named exit statuses recorded"
+  },
+  "originalRawHashBefore": "471913F7ECAC18252B336CD8249AA76E7708B72F9DC43F4E3CC5B7AE6B37F97D",
+  "phase": "snapshot-hash",
+  "errorCode": "EPERM",
+  "originalRawHashAfter": "471913F7ECAC18252B336CD8249AA76E7708B72F9DC43F4E3CC5B7AE6B37F97D",
+  "originalRawUnchanged": true,
+  "finishedAt": "2026-10-23T04:46:32.562Z",
+  "completed": 0,
+  "passed": 0,
+  "failed": 0,
+  "observations": 0,
+  "assertions": 0,
+  "notRun": 195,
+  "origins": {
+    "server-rule": 0,
+    "model-authored": 0,
+    "direct tool": 0
+  }
+}

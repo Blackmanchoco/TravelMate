@@ -1,0 +1,35 @@
+TRAVELMATE · ADMINISTRATOR REPORT
+Catalogue coverage
+Generated 16/10/2026, 9:46:29 pm (Asia/Kuala_Lumpur)
+Totals
+Discoverable places
+56
+Archived places
+0
+Test fixtures
+0
+By destination
+Destination Discoverable Archived
+Kuala Lumpur 20 0
+Penang 19 0
+Melaka 14 0
+Kota Kinabalu 1 0
+Kuching 1 0
+Klang 1 0
+By category
+Discoverable places only.
+Category Count
+Accommodation 10
+Attraction 3
+Culture 14
+Historical 12
+Nature 6
+Restaurant 7
+
+Category Count
+Shopping 4
+Audit log summary
+0 recorded actions across the retained audit log.
+Action Count
+No audit actions recorded.
+Live aggregate counts. No account identifiers are included.

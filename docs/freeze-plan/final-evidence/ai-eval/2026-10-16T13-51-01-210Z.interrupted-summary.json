@@ -1,0 +1,95 @@
+{
+  "interrupted": true,
+  "reason": "Stopped for completed core price_scope_followup honesty failure; not a completed final matrix.",
+  "rawFile": "C:/FYP/travelmate-private-evidence/final-20261016/2026-10-16T13-51-01-210Z.jsonl",
+  "sha256": "1b2f4ab8161ecc536ef5770ab58d92a46d056a02f454cb4afbba544e8c6dc758",
+  "total": 48,
+  "passed": 47,
+  "failed": 1,
+  "timeouts": 0,
+  "p50Ms": 770,
+  "p95Ms": 3019,
+  "p99Ms": 3419,
+  "cases": [
+    {
+      "caseId": "context_recall",
+      "total": 3,
+      "passed": 3
+    },
+    {
+      "caseId": "polluted_history_unesco",
+      "total": 3,
+      "passed": 3
+    },
+    {
+      "caseId": "negative_hallucination_unesco",
+      "total": 3,
+      "passed": 3
+    },
+    {
+      "caseId": "george_town_attribute_search",
+      "total": 3,
+      "passed": 3
+    },
+    {
+      "caseId": "price_scope_followup",
+      "total": 3,
+      "passed": 2
+    },
+    {
+      "caseId": "no_preference_recommendation",
+      "total": 3,
+      "passed": 3
+    },
+    {
+      "caseId": "hotel_typo_penang",
+      "total": 3,
+      "passed": 3
+    },
+    {
+      "caseId": "hotel_chinese_penang",
+      "total": 3,
+      "passed": 3
+    },
+    {
+      "caseId": "restaurant_penang_zero",
+      "total": 3,
+      "passed": 3
+    },
+    {
+      "caseId": "restaurant_kl_jalan_alor",
+      "total": 3,
+      "passed": 3
+    },
+    {
+      "caseId": "personalized_category_unavailable",
+      "total": 3,
+      "passed": 3
+    },
+    {
+      "caseId": "schedule_request_english",
+      "total": 3,
+      "passed": 3
+    },
+    {
+      "caseId": "schedule_request_chinese",
+      "total": 3,
+      "passed": 3
+    },
+    {
+      "caseId": "restarant_penang_zero",
+      "total": 3,
+      "passed": 3
+    },
+    {
+      "caseId": "restarant_kl_jalan_alor",
+      "total": 3,
+      "passed": 3
+    },
+    {
+      "caseId": "restaurent_penang_zero",
+      "total": 3,
+      "passed": 3
+    }
+  ]
+}
